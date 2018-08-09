@@ -1,3 +1,4 @@
-# jailbreak.guide
+# Jailbreak.Guide
 
-THIS IS A TEST
+By Raizo & That-Kidd
+
