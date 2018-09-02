@@ -111,6 +111,20 @@ code {
 
           }
 
+.alert-success {
+            background-color: #9cfdad;
+            color: #137425;
+            font-weight: bold;
+            font-size: 1em !important;
+            padding: 1em;
+            margin: 2em 0;
+            box-shadow: 0 2px 2px;
+            text-indent: initial;
+            border-radius: 4px;
+            
+          
+}
+
 .p-box > a:hover {
   color: #7694b8;
   text-decoration: initial;
