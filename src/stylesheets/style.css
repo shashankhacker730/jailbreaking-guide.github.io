@@ -302,3 +302,15 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+
+/* Visited Link Colors */
+
+.a-info:visited {
+  color: #07546d;
+}
+.a-success:visited {
+  color: #137425;
+}
+.a-alert:visited {
+  color: /*#d72828 */#057BFF;
+}
