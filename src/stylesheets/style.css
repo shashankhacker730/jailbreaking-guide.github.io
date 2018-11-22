@@ -314,3 +314,10 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 .a-alert:visited {
   color: /*#d72828 */#057BFF;
 }
+
+a {
+  color: white;
+}
+a:visited {
+  color: white;
+}
