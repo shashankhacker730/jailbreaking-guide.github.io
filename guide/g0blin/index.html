@@ -75,6 +75,18 @@ table {
             <div class="row">
                 <div class="col-lg-3"></div>
                 <div class="col-lg-6">
+                    <aside class="sidebar__right">
+                        <nav class="toc">
+                            <header>
+                                <h4 class="nav__title"><i class="fas fa-file"></i>Table of Contents</h4>
+                            </header>
+                            <ul class="toc__menu" id="markdown-toc">
+                                <li><a href="#step-1" id="markdown-toc-required-reading">Cydia Impactor</a></li>
+                                <li><a href="#step-2" id="markdown-toc-version-table">G0blin jailbreak</a></li>
+                                <li><a href="#step-3" id="markdown-toc-version-table">Cydia</a></li>
+                            </ul>
+                        </nav>
+                    </aside>
                     <h1 class="mt-5 text-center h1-page-title">G0blin Jailbreak Method</h1>
                     <div class="alert-box">
                         This method only supports devices on iOS 10.3 - iOS 10.3.3. If you are an older version of iOS <a class="a-alert" href="../double-h3lix/">Double H3lix</a> or <a class="a-alert" href="../h3lix/">H3lix</a>.
@@ -83,12 +95,54 @@ table {
                     <div class="alert-box">
                         Before continuing this guide, please make sure you have backed up your iOS Device via iTunes and iCloud.
                     </div>
-                    
+                    For this guide you will need to following;
+                    <ul>
+                        <li><a target="_blank" href="https://g0blin.sticktron.net/">The G0blin IPA</a></li>
+                        <li><a target="_blank" href="https://www.cydiaimpactor.com/">Cydia Impactor</a></li>
+                        <li><a target="_blank" href="https://beta.apple.com/">A Free Developer Apple ID</a></li>
+                    </ul>
+                    <hr>
+                    <h5 id="step-1"><a class="step" href="#step-1">Step 1: Impactor</a></h5>
+                    <ol>
+                        <li>Connect your iOS device to your Mac or PC (Apple OEM cables are recommended)</li>
+                        <li>Start Cydia Impactor, then drag the G0blin IPA onto the window</li>
+                        <li>You will be prompted for your Apple ID credentials (this one has to be enrolled in a beta program (free or paid)</li>
+                        <li>Once you've entered your credentials in correctly, Cydia Impactor should install G0blin onto your iOS Device.</li>
+                    </ol>
+                    <div class="alert-box">
+                        If this fails, try again with your correct Apple ID or a different charge/sync cable, if you experience any other issues refer to the <a target="_blank" href="../troubleshooting">Troubleshooting</a> section.
+                    </div>
+                    <hr>
+                    <h5 id="step-2"><a class="step" href="#step-2">Step 2: G0blin Jailbreak</a></h5>
+                    <ol>
+                        <li>Trust the certificate in Settings -> General -> Profiles & Device Management </li>
+                        <li>Open G0blin on your iOS Device and press jailbreak.</li>
+                        <div class="alert-box">
+                            If you Cydia does not appear, try again.
+                        </div>
+                    </ol>
+                    <ol>
+                        <li>After your device resprings, you should have Cydia installed on your Home Screen</li>
+                        <li>Launch Cydia and let it (re)load its packages. If you are prompted for an upgrade, tap Upgrade All</li>
+                    </ol>
+                    <h5 id="step-3" ><a class="step" href="#step-3">Step 3: Cydia</a></h5>
+                    <ol>
+                        <li>After your device resprings, you should have Cydia installed on your Home Screen</li>
+                        <ul>
+                            <li> If Cydia is not installed, repeat <a href="#step-2">Step 2</a> again. If you encounter further issues refer to the <a target="_blank" href="../troubleshooting/">Troubleshooting</a> section.</ul>
+                        </ul>
+                        <li>After you jailbreak once reboot and jailbreak once more to let the remount patches apply.</li>
+                        <li>Launch Cydia and let it (re)load its packages. If you are prompted for an upgrade, tap Upgrade All</li>
+                    </ol>
+                    <div class="alert alert-success">
+                        <p>Once all upgrades are completed and you've resprung, you are free to use any (compatible) Cydia tweaks</p>
+                    </div>
                     <div class="alert">
                             Also feel free to check out the <a href="../essentials/" class="jb-link">Jailbreaking Essentials</a>
                         </div>
                   
             </div>
+        </div>
         </div>
     </body>
 </html>
