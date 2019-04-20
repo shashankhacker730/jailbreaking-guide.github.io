@@ -97,33 +97,7 @@ code {
   color: #7694b8;
   text-decoration: underline;
 }
-.alert {
-  background-color: #95def7;
-  color: #07546d;
-  font-weight: bold;
-  font-size: 1em !important;
-  padding: 1em;
-  margin: 2em 0;
-  box-shadow: 0 2px 2px;
-  text-indent: initial;
-  border-radius: 4px;
-  
 
-          }
-
-.alert-success {
-            background-color: #9cfdad;
-            color: #137425;
-            font-weight: bold;
-            font-size: 1em !important;
-            padding: 1em;
-            margin: 2em 0;
-            box-shadow: 0 2px 2px;
-            text-indent: initial;
-            border-radius: 4px;
-            
-          
-}
 
 .p-box > a:hover {
   color: #7694b8;
@@ -164,18 +138,6 @@ code {
   border-radius: 4px;
 }
 
-.alert-box {
-  margin: 2em 0;
-  padding: 1em;
-  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
-  background-color: #f8d7da; 
-  font-size: 1em !important;
-  font-weight: bold;
-  text-indent: initial;
-  box-shadow: 0 2px 2px rgba(94,129,172,0.25) !important;
-  color: #d72828 !important;
-  border-radius: 4px;
-}
 
 
 img:hover {
@@ -298,29 +260,78 @@ a:visited {
 nav a {
   text-decoration: none;
 }
+
+
+.alert {
+  background-color: #40afd4;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em !important;
+  padding: 1em;
+  margin: 2em 0;
+  text-indent: initial;
+  border-radius: 4px;
+}
+
+.alert-dark {
+  background-color: rgb(39, 39, 39);
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em !important;
+  padding: 1em;
+  margin: 2em 0;
+  text-indent: initial;
+  border-radius: 4px;
+}
+
+.alert-success {
+  background-color: #3a8f49;
+  color: #fff;
+  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  font-weight: bold;
+  font-size: 1em !important;
+  padding: 1em;
+  margin: 2em 0;
+  text-indent: initial;
+  border-radius: 4px; 
+}
+
+.alert-box {
+  margin: 2em 0;
+  padding: 1em;
+  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  background-color: #d65858; 
+  font-size: 1em !important;
+  font-weight: bold;
+  text-indent: initial;
+  box-shadow: 0 2px 2px rgba(94,129,172,0.25) !important;
+  color: #fff!important;
+  border-radius: 4px;
+}
+
+/* Visited Link Colors */
+
+.alert * a:visited, .alert-box * a:visited, .alert-success * a:visited {
+  color: azure !important;
+}
+.alert * a:hover, .alert-box * a:hover, .alert-success * a:hover {
+  color: rgb(102, 102, 102) !important;
+  outline: none;
+  text-decoration: none;
+}
+
+a {
+  color: azure;
+}
+a:visited {
+  color: azure;
+}
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, #goog-wm-sb, .highlight, .archive__item-teaser {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
-/* Visited Link Colors */
 
-.a-info:visited {
-  color: #07546d !important;
-}
-.a-success:visited {
-  color: #137425 !important;
-}
-.a-alert:visited {
-  color: /*#d72828 */#057BFF !important;
-}
-
-a {
-  color: white;
-}
-a:visited {
-  color: white;
-}
 .displayTooSmall {
   display: none;
   width: 100%;
@@ -329,8 +340,29 @@ a:visited {
   color: black;
 }
 a.jb-link {
-  color: rgb(143, 143, 252);
+  color: #2E3440;
 }
+a.jb-link:hover {
+  color: rgb(18, 21, 26);
+  text-decoration: none;
+}
+a.dark-link {
+  color: rgb(185, 185, 185)
+}
+a.dark-link:hover {
+  color: rgb(104, 104, 104);
+}
+.guide-link, .guide-link:visited {
+  color: rgb(204, 204, 204) !important;
+}
+.guide-link:hover {
+  color: rgb(102, 102, 102) !important;
+}
+
+table {
+  margin-bottom: 15% !important;
+}
+
 .tg  {border-collapse:collapse;border-spacing:0;text-align: center;  margin: auto; padding: 5%;}
                         .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
                         .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}

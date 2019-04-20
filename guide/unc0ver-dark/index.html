@@ -38,7 +38,7 @@
         </script>
         <meta charset="utf-8">
         <meta name="viewport" src="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>iOS Jailbreak Guide - Unc0ver</title>
+        <title>iOS Jailbreak Guide - Unc0ver Dark</title>
         <script src="../../src/js/jquery.min.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <link rel="shortcut icon" href="https://i.imgur.com/XoJGlxQ.png" type="image/x-icon" />
@@ -49,30 +49,31 @@
         <link href="../../src/stylesheets/style.css" rel="stylesheet" type="text/css">
                 
         <meta name="site-name" content="Jailbreak Guides">
-        <meta name="description" content="Unc0ver Jailbreak Guide for all devices on iOS 11.0 - iOS 11.4 Beta 3">
-        <meta name="keywords" content="Unc0ver Jailbreak, Unc0ver Jailbreak, iOS 11 Jailbreak, Unc0ver iOS 1 Jailbreak, Uncover iOS 11 Jailbreak, iOS 11 Jailbreak, Jailbreak iOS 11 Help on Jailbreak, I need Jailbreak help, help Jailbreak, help, Jailbreaking Help, Jailbreak Guides, Jailbreak, Guides, How to Jailbreak, Jailbreak iPhone, Jailbreak iPad, How to Jailbreak iPhone, How to Jailbreak iPad, how to Jailbreak iOS, How to Jailbreak Apple">
+        <meta name="description" content="Unc0ver Dark Jailbreak Guide for all devices on iOS 11.0 - iOS 11.4 Beta 3">
+        <meta name="keywords" content="Unc0ver Dark, unc0ver dark jailbreak, ios 12 jailbreak sileo, iOS 12 sileo, ios 12 jailbreak, Unc0ver Jailbreak, Unc0ver Jailbreak, iOS 11 Jailbreak, Unc0ver iOS 1 Jailbreak, Uncover iOS 11 Jailbreak, iOS 11 Jailbreak, Jailbreak iOS 11 Help on Jailbreak, I need Jailbreak help, help Jailbreak, help, Jailbreaking Help, Jailbreak Guides, Jailbreak, Guides, How to Jailbreak, Jailbreak iPhone, Jailbreak iPad, How to Jailbreak iPhone, How to Jailbreak iPad, how to Jailbreak iOS, How to Jailbreak Apple">
         <meta name="author" content="Skylar McCauley">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- OG Meta Tags-->
         <meta property="og:title" content="Jailbreak Guides">
-        <meta property="og:description" content="Unc0ver Jailbreak Guide for all devices on iOS 11.0 - iOS 12.1.2">        
+        <meta property="og:description" content="Unc0ver Dark Jailbreak Guide for all devices on iOS 11.0 - iOS 12.1.2">        
         <meta property="og:image" src="https://i.imgur.com/XoJGlxQ.png">
 
         <script>
-                var audio = new Audio('../unc0ver-dark/lightsaber.mp3');
-                function darkside() {
+                var audio = new Audio('lightsaber.mp3');
+                function darkside(u) {
                     audio.play();
                     setTimeout( () => {
-                        window.location.href="https://jailbreakguide.me/unc0ver-dark/"
+                        window.location.href=`${u}`
                     }, 3000)
                 }
                 
             </script>
+        
     </head>
-    <body>
+    <body >
              <ul class="ul">
-    <li class="li"><a class="active" href="https://www.jailbreakguide.tk">Home</a></li>
+    <li class="li"><a class="active" onclick="darkside('https://www.jailbreakguide.tk')" href="javascript:void(0)">Home</a></li>
     <!-- TODO: Fix these links later-->
   <li class="li"><a href="../../help/">Help</a></li>
   <li class="li"><a href="../../contact/">Contact</a></li>
@@ -89,7 +90,7 @@
                             <header><h4 class="nav__title"><i class="fas fa-file"></i>Table of Contents</h4></header>
                         <ul class="toc__menu" id="markdown-toc">
                           <li><a href="#step-1" id="markdown-toc-required-reading">Cydia Impactor</a></li>
-                          <li><a href="#step-2" id="markdown-toc-version-table">Unc0ver Jailbreak</a></li>
+                          <li><a href="#step-2" id="markdown-toc-version-table">Unc0ver Dark Jailbreak</a></li>
                           <li><a href="#step-3" id="markdown-toc-version-table">Cydia</a></li>
 
                         </ul>
@@ -97,21 +98,21 @@
                         </aside>
                 </div>
                 <div class="col-lg-6">
-                    <h1 class="mt-5 text-center h1-page-title">Unc0ver Jailbreak Method</h1>
+                    <h1 class="mt-5 text-center h1-page-title">Unc0ver Dark Jailbreak Method</h1>
                     <div class="alert-box">
                         This method only supports All Devices on iOS 11.0 - 12.1.2. Electra12 is also on the horizon, so stay tuned!
                     </div>
                     <div class="alert-box">
                         Before continuing this guide, please make sure you have backed up your iOS Device via iTunes and/or iCloud.
                     </div>
-                    <div class="alert-dark">
-                        Your feable skills are not match for the power of the dark side. <a class="dark-link" onclick="darkside()" href="javascript:void(0);">Join us or die.</a>
+                    <div class="alert">
+                        Unc0ver Dark provides users with the ability to seamlessly run Sileo alongside Cydia with Substrate installed. If you don't plan on using Sileo or want to use Subsititute, we recommend using <a class="jb-link" onclick="darkside('../unc0ver')" href="javascript:void(0)">Unc0ver for Substrate</a> or <a class="jb-link" onclick="darkside('../electra')" href="javascript:void(0)">Electra for Substitute.</a>
                     </div>
                     
                      For this guide you will need to following;
                     <ul>
-                        <li><a target="_blank" href="https://github.com/pwn20wndstuff/Undecimus">Unc0ver IPA</a>
-                        <li><a target="_blank" href="https://www.cydiaimpactor.com/">Cydia Impactor</a></li>
+                        <li><a target="_blank" class="guide-link" onclick="darkside('https://github.com/nqcshady/unc0ver-dark/releases')" href="javascript:void(0)">Unc0ver Dark IPA</a>
+                        <li><a target="_blank" class="guide-link" onclick="darkside('http://www.cydiaimpactor.com')" href="javascript:void(0)">Cydia Impactor</a></li>
                             
                     </ul>
 
@@ -122,15 +123,15 @@
                         <li>Connect your iOS device to your Mac or PC (Apple OEM cables are recommended)</li>
                         <li>Start Cydia Impactor, then drag the Unc0ver IPA onto the window</li>
                         <li>You will be prompted for your Apple ID credentials (This can be the apple account on your phone. Make sure the password is correct) </li>
-                        <li>Once you've entered your credentials in correctly, Cydia Impactor should install Unc0ver onto your iOS Device. If you get an error check<a target="_blank" href="../troubleshooting/">here</a></li>
+                        <li>Once you've entered your credentials in correctly, Cydia Impactor should install Unc0ver onto your iOS Device. If you get an error check <a target="_blank" class="jb-link" onclick="darkside('../troubleshooting')" href="javascript:void(0)">here</a></li>
                     </ol>
                     <div class="alert-box">
-                        If this fails, try again with your correct Apple ID or a different charge/sync cable or go to the <a target="_blank" class="jb-link" href="../troubleshooting/">Troubleshooting</a> section.
+                        If this fails, try again with your correct Apple ID or a different charge/sync cable or go to the <a target="_blank" class="guide-link" onclick="darkside('../troubleshooting')" href="javascript:void(0)">Troubleshooting</a> section.
                     </div>
                     <hr>
                     <h5 id="step-2" ><a class="step" href="#step-2">Step 2: Using Unc0ver</a></h5>
                     <ol>
-                        <li>Once the Unc0ver App has been installed onto your iOS Device, make sure to delete all OTA updates if any</li>
+                        <li>Once the Unc0ver Dark App has been installed onto your iOS Device, make sure to delete all OTA updates if any</li>
                         <li>Open Settings then navigate to General > Profiles & Device Management. The Apple ID used to install the app should show.</li>
                         <li>Tap on the Profile, then tap Verify (or Trust) and follow all prompts onscreen</li>
                         <li>Now that Unc0ver has been verified, open it on your Home Screen</li>
@@ -143,7 +144,7 @@
                             <li>Various other errors</li>
                             
                         </ul>
-                        These errors are normal. If you encounter any of these, reboot your device and try again. You can also consult the <a target="_blank" class="jb-link" href="../troubleshooting/">Troubleshooting</a> section.
+                        These errors are normal. If you encounter any of these, reboot your device and try again. You can also consult the <a target="_blank" class="jb-link" onclick="darkside('../troubleshooting')" href="javascript:void(0)">Troubleshooting</a> section.
                         </div>
 
                     <hr>
@@ -151,7 +152,7 @@
                     <ol>
                         <li>After your device resprings, you should have Cydia installed on your Home Screen</li>
                             <ul>
-                        <li> If Cydia is not installed, repeat <a href="#step-2">Step 2</a> again. If you encounter further issues refer to the <a target="_blank" href="../troubleshooting/">Troubleshooting</a> section.</ul>
+                        <li> If Cydia is not installed, repeat <a href="#step-2">Step 2</a> again. If you encounter further issues refer to the <a target="_blank" onclick="darkside('../troubleshooting')" href="javascript:void(0)">Troubleshooting</a> section.</ul>
                         </ul>
                         <li>Launch Cydia and let it (re)load its packages. If you are prompted for an upgrade, tap Upgrade All</li>
                     </ol>
@@ -159,7 +160,7 @@
                         <p>Once all upgrades have been completed and you've resprung, you are free to use your Jailbreak to your heart's content.</p>
                     </div>
                     <div class="alert">
-                            Feel free to check out the <a href="../essentials/" class="jb-link">Jailbreaking Essentials</a>
+                            Feel free to check out the <a onclick="darkside('../essentials')" href="javascript:void(0)" class="jb-link">Jailbreaking Essentials</a>
                         </div>
                 <hr>
                 <p>If you liked this tutorial, share this guide with others that are interested in jailbreaking their iOS Devices</p>
