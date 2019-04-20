@@ -58,7 +58,17 @@ table {
         <meta property="og:title" content="Jailbreak Guides">
         <meta property="og:description" content="Get started with Jailbreaking your iOS Device on almost any version">        
         <meta property="og:image" src="https://i.imgur.com/XoJGlxQ.png">
-
+        <script>
+                var audio = new Audio('lightsaber.mp3');
+                function darkside(u) {
+                    audio.play();
+                    setTimeout( () => {
+                        window.location.href=`${u}`
+                    }, 3000)
+                }
+                
+            </script>
+        
     </head>
     <body>
              <ul class="ul">
@@ -107,6 +117,12 @@ table {
                                 <td class="tg-0lax">All iOS 11 & iOS 12 Devices</td> 
                                 <td class='tg-0lax'>iOS 11.0 - 12.1.2</td>
                                 <td class="tg-0lax"><a class="guide-link" href="../unc0ver">Link</a></td>
+                          </tr>
+                          <tr>
+                                <td class="tg-0lax"><a class="guide-link" target="_blank" onclick="darkside('https://github.com/nqcshady/unc0ver-dark/releases')" href="javascript:void(0)">Unc0ver Dark</a></td> 
+                                <td class="tg-0lax">All iOS 11 & iOS 12 Devices</td> 
+                                <td class='tg-0lax'>iOS 11.0 - 12.1.2</td>
+                                <td class="tg-0lax"><a class="guide-link" onclick="darkside('../unc0ver-dark')" href="javascript:void(0)">Link</a></td>
                           </tr>
                           <tr>
                             <td class="tg-0lax"><a class="guide-link" target="_blank" href="https://coolstar.org/electra/">Electra</a></td>
