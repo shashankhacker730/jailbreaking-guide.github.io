@@ -9,6 +9,9 @@ a.step {
 .navbar {
   background-color: rgb(24, 26, 29);
 }
+.col-lg-6 {
+	margin-bottom: 7%;
+}
 
 body { 
   padding-top: 0px;
