@@ -388,6 +388,11 @@ table {
   margin-bottom: 15% !important;
 }
 
+@media (max-width: 768px) {
+  .col-lg-3 {
+    display: none !important;
+  }
+}
 
 .tg  {border-collapse:collapse;border-spacing:0;text-align: center;  margin: auto; padding: 5%;}
                         .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
