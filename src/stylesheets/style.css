@@ -309,6 +309,18 @@ nav a {
   border-radius: 4px; 
 }
 
+.alert-caution {
+  background-color: #c7b723;
+  color: #000;
+  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  font-weight: bold;
+  font-size: 1em !important;
+  padding: 1em;
+  margin: 2em 0;
+  text-indent: initial;
+  border-radius: 4px; 
+}
+
 .alert-box {
   margin: 2em 0;
   padding: 1em;
