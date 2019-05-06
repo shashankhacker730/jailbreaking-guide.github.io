@@ -3,8 +3,9 @@
     padding-top: 56px;
   }
 }
-a.step {
- color: azure; 
+
+.center {
+  text-align: center
 }
 .navbar {
   background-color: rgb(24, 26, 29);
@@ -264,7 +265,31 @@ nav a {
   text-decoration: none;
 }
 
-
+a.button {
+  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  border-radius: 8px;
+  font-weight: bold !important;
+  padding: 1em;
+  font-size: 1em;
+  outline: none !important;
+  border: none !important;
+  text-decoration: none;
+  margin-top: 10%;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+div.space {
+  margin: 7%;
+}
+.wide {
+ padding-left: 16% !important;
+ padding-right: 16% !important;
+}
+.wider {
+  padding-left: 26% !important;
+  padding-right: 26% !important;
+}
 .alert {
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   font-weight: bolder !important;
@@ -277,98 +302,144 @@ nav a {
 
 .black {
   background-color: rgb(39, 39, 39);
-  color: #fff;
+  color: rgb(190, 190, 190);
+}
+.white {
+  color: rgb(39, 39, 39);
+  background-color: rgb(190, 190, 190);
 }
 .gray {
   background-color: #7D8189;
-  color: rgb(243, 243, 243);
+  color: rgb(243, 243, 243) !important;
 }
 .green {
   background-color: #3a8f49;
-  color: #dcffe3;
+  color: #dcffe3 !important;
 }
 .yellow {
   background-color: #c7b723;
-  color: #fffde9;
+  color: #fffde9 !important;
 }
 .red {
   background-color: #d65858; 
-  color: #ffe2e2;
+  color: #ffe2e2 !important;
 }
 .orange {
   background-color: #ffa600;
-  color: #fff5e3;
+  color: #fff5e3 !important;
 }
 .blue {
   background-color: #1100ff;
-  color: #c8c4ff;
+  color: #c8c4ff !important;
 }
 .sky-blue {
   background-color: #00a6cf;
-  color: #caf4ff;
+  color: #caf4ff !important;
 }
 .violet {
-  background-color: #cc00ff;
-  color: #f7d5ff;
+  background-color: #ae00da;
+  color: #f4c1ff !important;
 }
+
 
 .alert > a {
   text-decoration: none;
 }
+.white > a, .white > a:visited {
+  color: rgb(27, 27, 27) !important
+}
+.white > a:hover {
+  color: rgb(0, 0, 0) !important
+}
 .black > a, .black > a:visited {
-  color: rgb(167, 167, 167)
+  color: rgb(167, 167, 167) !important
 }
 .black > a:hover {
-  color: rgb(116, 116, 116)
+  color: rgb(116, 116, 116) !important
 }
 .gray > a, .gray > a:visited {
-  color: rgb(109, 109, 109)
+  color: rgb(109, 109, 109) !important
 }
 .gray > a:hover {
-  color: rgb(65, 65, 65)
+  color: rgb(65, 65, 65) !important
 }
 .green > a, .green > a:visited {
-  color: #80ff99
+  color: #80ff99 !important
 }
 .green > a:hover {
-  color: #61c475
+  color: #61c475 !important
 }
 .yellow > a, .yellow > a:visited {
-  color: #a8a048
+  color: #a8a048 !important
 }
 .yellow > a:hover {
-  color: #77701c
+  color: #77701c !important
 }
 .red > a, .red > a:visited {
-  color: #ff9191
+  color: #ff9191 !important
 }
 .red > a:hover {
-  color: #d86d6d
+  color: #d86d6d !important
 }
 .orange > a, .orange > a:visited {
-  color: #ffd381
+  color: #ffd381 !important
 }
 .orange > a:hover {
-  color: #ffbf48
+  color: #ffbf48 !important
 }
 .blue > a, .blue > a:visited {
-  color: #534cb1
+  color: #534cb1 !important
 }
 .blue > a:hover {
-  color: #292288
+  color: #292288 !important
 }
 .sky-blue> a, .sky-blue > a:visited {
-  color: #84e6ff
+  color: #84e6ff !important
 }
 .sky-blue > a:hover {
-  color: #5fb8cc
+  color: #5fb8cc !important
 }
 .violet> a, .violet > a:visited {
-  color: #eea4ff
+  color: #eb90ff !important
 }
 .violet > a:hover {
-  color: #df51ff
+  color: #e579fd !important
 }
+
+a.button.gray:hover {
+  color: rgb(167, 167, 167)  !important;
+  background-color: rgb(68, 68, 68)
+}
+a.button.green:hover {
+  color: #80ff99  !important;
+  background-color: #196e29
+}
+a.button.yellow:hover {
+  color: #a8a048  !important;
+  background-color: #9c8f12
+}
+a.button.red:hover {
+  color: #ff9191 !important;
+  background-color: #912424
+}
+a.button.orange:hover {
+  color: #ffd381 !important;
+  background-color: #b87700
+}
+a.button.blue:hover {
+  color: #534cb1 !important;
+  background-color: #0c00b1
+}
+a.button.sky-blue:hover {
+  color: #84e6ff !important;
+  background-color: #007896
+}
+a.button.violet:hover {
+  color: #eb90ff !important;
+  background-color: #8900ac
+
+}
+
 
 td > a, td > a:visited {
   color: rgb(155, 155, 155)
@@ -379,7 +450,7 @@ td > a:hover {
 
 
 
-b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, #goog-wm-sb, .highlight, .archive__item-teaser {
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form, button, input[type="submit"], .btn, #goog-wm-sb, .highlight, .archive__item-teaser {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
