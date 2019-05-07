@@ -475,21 +475,21 @@ table {
   font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,"Microsoft Yahei","微软雅黑",STXihei,"华文细黑",sans-serif;
   font-size: .75em;
   border-collapse: collapse;
-  border: 1px solid #bdc1c4;
+  border: 1px solid #bdc1c4 !important;
   text-align: center;
   orphans: 3;
   widows: 3;
   display: table;
-  border-collapse: separate;
-  border-spacing: 2px;
-  border-color: grey;
+  border-collapse: separate !important;
+  border-spacing: 2px !important;
+  border-color: grey !important;
 }
 colgroup {
   display: table-column-group;
 }
 thead {
   background-color: #3d424a;
-  border-bottom: 1px solid #bdc1c4;
+  border-bottom: 1px solid #bdc1c4 !important;
   color: #88C0D0;
 }
 tr, td, th {
@@ -498,15 +498,15 @@ tr, td, th {
 
 td {
   padding: 0.75em;
-  border-bottom: 1px solid #bdc1c4;
-  border-right: 1px solid #bdc1c4;
+  border-bottom: 1px solid #bdc1c4 !important;
+  border-right: 1px solid #bdc1c4 !important;
   font-size: 10pt;
 }
 th {
   padding: 0.75em;
   font-weight: bold;
   text-align: left;
-  border-right: 1px solid #bdc1c4;
+  border-right: 1px solid #bdc1c4 !important;
   font-size: 12pt;
 }
 
