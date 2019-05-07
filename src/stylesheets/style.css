@@ -258,8 +258,13 @@ ul, menu, dir {
   line-height: 1.5;
   border-bottom: 1px solid #585d66;
 }
-a:visited {
+a:visited, a {
   color: #8a9ea7;
+  text-decoration: none;
+}
+a:hover {
+  color: #585d66;
+  text-decoration: none;
 }
 nav a {
   text-decoration: none;
@@ -317,8 +322,8 @@ div.space {
   color: #dcffe3 !important;
 }
 .yellow {
-  background-color: #c7b723;
-  color: #fffde9 !important;
+  background-color: #f1d900;
+  color: #fffde8 !important;
 }
 .red {
   background-color: #d65858; 
@@ -329,8 +334,8 @@ div.space {
   color: #fff5e3 !important;
 }
 .blue {
-  background-color: #1100ff;
-  color: #c8c4ff !important;
+  background-color: #4c40ff;
+  color: #dad7ff !important;
 }
 .sky-blue {
   background-color: #00a6cf;
@@ -358,10 +363,10 @@ div.space {
   color: rgb(116, 116, 116) !important
 }
 .gray > a, .gray > a:visited {
-  color: rgb(109, 109, 109) !important
+  color: rgb(148, 148, 148) !important
 }
 .gray > a:hover {
-  color: rgb(65, 65, 65) !important
+  color: rgb(85, 85, 85) !important
 }
 .green > a, .green > a:visited {
   color: #80ff99 !important
@@ -370,10 +375,10 @@ div.space {
   color: #61c475 !important
 }
 .yellow > a, .yellow > a:visited {
-  color: #a8a048 !important
+  color: rgb(255, 239, 93) !important
 }
 .yellow > a:hover {
-  color: #77701c !important
+  color: rgb(255, 234, 45) !important
 }
 .red > a, .red > a:visited {
   color: #ff9191 !important
@@ -388,10 +393,10 @@ div.space {
   color: #ffbf48 !important
 }
 .blue > a, .blue > a:visited {
-  color: #534cb1 !important
+  color: #9992ff !important
 }
 .blue > a:hover {
-  color: #292288 !important
+  color: #665cff !important
 }
 .sky-blue> a, .sky-blue > a:visited {
   color: #84e6ff !important
@@ -415,8 +420,8 @@ a.button.green:hover {
   background-color: #196e29
 }
 a.button.yellow:hover {
-  color: #a8a048  !important;
-  background-color: #9c8f12
+  color: #ffef5d  !important;
+  background-color: #a0942c
 }
 a.button.red:hover {
   color: #ff9191 !important;
@@ -427,8 +432,8 @@ a.button.orange:hover {
   background-color: #b87700
 }
 a.button.blue:hover {
-  color: #534cb1 !important;
-  background-color: #0c00b1
+  color: #5e57c9 !important;
+  background-color: #0e00d1
 }
 a.button.sky-blue:hover {
   color: #84e6ff !important;
@@ -465,7 +470,50 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 }
 
 table {
-  margin-bottom: 15% !important;
+  margin-bottom: 1em;
+  width: 100%;
+  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,"Microsoft Yahei","微软雅黑",STXihei,"华文细黑",sans-serif;
+  font-size: .75em;
+  border-collapse: collapse;
+  border: 1px solid #bdc1c4;
+  text-align: center;
+  orphans: 3;
+  widows: 3;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+}
+colgroup {
+  display: table-column-group;
+}
+thead {
+  background-color: #3d424a;
+  border-bottom: 1px solid #bdc1c4;
+  color: #88C0D0;
+}
+tr, td, th {
+  vertical-align: middle;
+}
+
+td {
+  padding: 0.75em;
+  border-bottom: 1px solid #bdc1c4;
+  border-right: 1px solid #bdc1c4;
+  font-size: 10pt;
+}
+th {
+  padding: 0.75em;
+  font-weight: bold;
+  text-align: left;
+  border-right: 1px solid #bdc1c4;
+  font-size: 12pt;
+}
+
+@media (max-width: 400px) {
+  .hide {
+    display: none !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -500,7 +548,4 @@ hr.short {
   color: rgb(151, 151, 151);
   text-decoration: none
 }
-.tg  {border-collapse:collapse;border-spacing:0;text-align: center;  margin: auto; padding: 5%;}
-                        .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-                        .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-                        .tg .tg-0lax{text-align:left;vertical-align:top}
+
