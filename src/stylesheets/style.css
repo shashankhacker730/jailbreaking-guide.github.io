@@ -639,9 +639,9 @@ hr.short {
   border-radius: 15px;
 }
 
-/*.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
   display: block;
-} */
+} 
 .navbar a:hover, .dropbtn:hover {
   background-color: rgb(19, 19, 19);
   border-radius: 15px;
