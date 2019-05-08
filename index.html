@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="csstransforms csstransforms3d csstransitions">
     <head>
         <!--link rel='stylesheet' href='style.css'-->
         <style>
@@ -56,6 +56,7 @@
         <script src="src/js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <script src="src/js/scrollToTop.js"></script>
+        <script src="src/js/main.js"></script>
         <link href="src/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="src/stylesheets/style.css" rel="stylesheet" type="text/css">
         <meta charset="UTF-8">
@@ -79,8 +80,17 @@
   <!-- TODO: Fix these links-->
   <li class="li"><a href="./help/">Help</a></li>
   <li class="li"><a href="./credits/">Credits</a></li>
-  <li class="li"><a href="./faq/">FAQ</a></li>
+  <li class="li"><a href="./faq/" class="overflow-nav" class="overflow-nav">FAQ</a></li>
+  <div class="dropdown">
+      <li class='li'></li> <button onclick="toggleDisplay('drpdwn-content')" class="dropbtn">Extras</button></li>
+      <div id="drpdwn-content" class="dropdown-content">
+          <a href="./guide/essentials/">Essentials</a>
+          <a href="./faq/" class="overflow-nav-drp">FAQ</a>
+        </div>
+     </div> 
+     
 </ul>                   
+
 
         <div class="container-src container-fluid cntr">
             <div class="row">
