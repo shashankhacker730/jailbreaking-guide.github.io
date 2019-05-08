@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.li {
+    float: left;
+}
+.li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.li a:hover {
+    background-color: #111;
+}
+table {
+    margin-bottom: 5%;
+}
+            
+</style>
+<link href="../../../src/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="../../../src/stylesheets/style.css" rel="stylesheet" type="text/css">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117081817-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117081817-3');
+</script>
+        <meta charset="utf-8">
+        <meta name="viewport" src="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>iOS Jailbreak Guide - SnapBack</title>
+        <script src="../../../src/js/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="shortcut icon" href="https://i.imgur.com/XoJGlxQ.png" type="image/x-icon" />
+        <link rel="icon" href="https://i.imgur.com/XoJGlxQ.png" type="image/x-icon" />
+        <script src="../../../src/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../src/js/scrollToTop.js"></script>
+        <link href="../../../src/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../../../src/stylesheets/style.css" rel="stylesheet" type="text/css">
+                
+        <meta name="site-name" content="Jailbreak Guides">
+        <meta name="description" content="SnapBack Guide for all devices on 10.3+ - Time Machine for iOS">
+        <meta name="keywords" content="SnapBack, SnapBack Jailbreak Guide, Time Machine iOS, SnapBack iOS, Midnightchips, repo.Midnightchips.me, I need Jailbreak help, help Jailbreak, help, Jailbreaking Help, Jailbreak Guides, Jailbreak, Guides, How to Jailbreak, Jailbreak iPhone, Jailbreak iPad, How to Jailbreak iPhone, How to Jailbreak iPad, how to Jailbreak iOS, How to Jailbreak Apple">
+        <meta name="author" content="Skylar McCauley">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- OG Meta Tags-->
+        <meta property="og:title" content="Jailbreak Guides">
+        <meta property="og:description" content="SnapBack Guide for all devices on 10.3+ - Time Machine for iOS">        
+        <meta property="og:image" src="https://i.imgur.com/XoJGlxQ.png">
+
+    </head>
+    <body>
+             <ul class="ul">
+    <li class="li"><a class="active" href="https://jailbreakguide.me/">Home</a></li>
+    <!-- TODO: Fix these links later-->
+  <li class="li"><a href="../../../help/">Help</a></li>
+  <li class="li"><a href="../../../credits/">Credits</a></li>
+  <li class="li"><a href="../../../faq/">FAQ</a></li>
+ 
+</ul>  
+                    
+        <div class="container-src container-fluid cntr">
+            <div class="row">
+                <div class="col-lg-3">
+                    <aside class="sidebar__right">
+                        <nav class="toc">
+                            <header><h4 class="nav__title"><i class="fas fa-file"></i>Table of Contents</h4></header>
+                        <ul class="toc__menu" id="markdown-toc">
+                          <li><a href="#step-1" id="markdown-toc-required-reading">Jailbreak</a></li>
+                          <li><a href="#step-2" id="markdown-toc-version-table">Install SnapBack</a></li>
+                          <li><a href="#step-3" id="markdown-toc-version-table">Make Snapshot</a></li>
+                          <li><a href="#step-4" id="markdown-toc-version-table">Jump to Snapsnot</a></li>
+                            
+                        </ul>
+                          </nav>
+                        </aside>
+                        <!-- Min-Ad -->
+                        <ins class="adsbygoogle"
+                        style="display:block"
+                        data-ad-client="ca-pub-9986048752291588"
+                        data-ad-slot="8642080340"
+                        data-ad-format="auto"
+                        data-full-width-responsive="true"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="mt-5 text-center h1-page-title">SnapBack Guide</h1>
+                    <div class="alert red">
+                        This method supports all devices running iOS 10.3 and newer.
+                    </div>
+                    <div class="alert red">
+                        Make sure your device is above 30% when restore RootFS Snapshots or above 50% when restoring Var Snapshots.
+                    </div>
+                    
+                    <div class="alert yellow">
+                        This guide requires your device to already be jailbroken on iOS 10.3 or newer. You can jailbreak your device using the multitude of guides <a   href="../getting-started/">here</a>.
+                    </div>
+                                        <!-- Min-Ad -->
+                                        <ins class="adsbygoogle"
+                                        style="display:block"
+                                        data-ad-client="ca-pub-9986048752291588"
+                                        data-ad-slot="8642080340"
+                                        data-ad-format="auto"
+                                        data-full-width-responsive="true"></ins>
+                                        <script>
+                                        (adsbygoogle = window.adsbygoogle || []).push({});
+                                        </script>
+                    <hr>
+
+                    <h5 id="step-1" ><a class="step" href="#step-1">Step 1: Jailbreak</a></h5>
+                    <ol>
+                        <li>Make sure you are jailbroken</li>
+                        <div class="alert sky-blue">
+                            If you aren't jailbroken, check out <a target="_blank" href="../../getting-started/">our guides on Jailbreaking</a>.
+                        </div>
+                    </ol>
+
+                    <hr>
+                    <h5 id="step-2" ><a class="step" href="#step-2">Step 2: Install SnapBack</a></h5>
+                    <ol>
+                        <li>Open Cydia/Sileo and navigate to the <code>Sources</code> tab</li>
+                        <li>Tap <code>Edit</code> (top-right), then tap <code>Add</code> (top-left)</li>
+                        <li>Add the source <code>https://repo.mindnightchips.me.com/</code></li>
+                        <li>Once Cydia/Sileo has finished reloading its sources, navigate to <code>Midnightchips Repo > All Packages > SnapBack</code></li>
+                        <li>Tap <code>Modify</code> (top-right) then tap <code>Install</code></li>
+                        <li>Confirm all the packages that need to be installed/upgraded</li>
+                    </ol>
+                    <div class="alert red">
+                        If you experience an error while trying to install SnapBack, make sure you are running the latest version of your Jailbreak and its utilities. If you continue to encounter further issues, <a   target="_blank" href="../../../help/">consult the Help page</a>.
+                        </div>
+                    <!-- Min-Ad -->
+                    <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-9986048752291588"
+                    data-ad-slot="8642080340"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                    <hr>
+                    <h5 id="step-3" ><a class="step" href="#step-3">Step 3: Make Snapshot</a></h5>
+                    <ol>
+                        <li>Once Cydia/Sileo has finished installing SnapBack, open SnapBack</li>
+                        <li>Tap on the <code>+</code> icon in the top right to create a RootFS Snapshot</li>
+                        <div class= "alert sky-blue">
+                            If you want to create a Var Snapshot, navigate to the Var Snapshots tab.
+                            </div>
+                        <div class="alert red">
+                            RootFS Snapshots may use around <code>1GB</code> or <code>2GB</code> of storage. Var Snapshots tend to be much larger in size and are only recommended for <code>&gt;=32GB</code> devices.
+                        </div>
+                        
+                       
+                    </ol>
+                    <!-- Min-Ad -->
+                    <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-9986048752291588"
+                    data-ad-slot="8642080340"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                    <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                    <hr>
+                    <h5 id="step-4" ><a class="step" href="#step-4">Step 4: Jump to Snapshot</a></h5>
+                    <ul>
+                       <li>Open SnapBack and choose one of your RootFS and Var Snapshots</li>
+                       <div class="alert sky-blue">
+                           If you are looking to use a different jailbreak, jump to the backup labeled <code>orig-fs</code>.
+                       </div>
+                       <li>Tap <code>Jump to Snapshot</code> to jump</li>
+                       <div class="alert red">
+                           Do not exit the app, put your device to sleep, or power off your device until SnapBack is done.
+                       </div>
+                       <li>When prompted to reboot your device, hold the <code>Sleep/Wake (Side)</code> Button and <code>Home Button</code> to force a shut down.</li>
+                       <div class="alert sky-blue">
+                           On iPhone 7 and newer, you will need to hold one of the Volume Buttons to power off.
+                       </div>
+                       <div class= "alert green">
+                        Once you've rebooted, you will now be running on your restored snapshot. If you jumped to <code>orig-fs</code>, you can rejailbreak with a compatible <a href="../../getting-started/">jailbreak method</a>.
+                        </div>
+                    </ul>
+
+                <hr>
+                <div class="alert green">
+                Join the <a   target="_blank" href="https://discord.gg/jQnbgan">Jailbreak Guide Discord Server</a>!
+                </div>
+                <p>If you liked this tutorial, share it with others that are interested in jailbreaking their iOS Devices.</p>
+                <hr>
+                <p>Help the Jailbreak Guide out by <a   target="_blank" href="../../../faq/contribute/">contributing</a>!</p>
+                  
+            </div>
+        </div>
+    </body>
+</html>
