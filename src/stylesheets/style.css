@@ -102,49 +102,11 @@ code {
   padding-left: 15px;
 }
 
-.p-box {
-  margin: 2em 0;
-  padding: 1em;
-  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
-  background-color: #485e7b; 
-  font-size: 1em !important;
-  font-weight: bold;
-  text-indent: initial;
-  box-shadow: 0 2px 2px rgba(94,129,172,0.25) !important;
-  color: #D8DEE9 !important;
-  border-radius: 4px;
-}
-
-.p-box > a {
-  color: #7694b8;
-  text-decoration: underline;
-}
-
-
-.p-box > a:hover {
-  color: #7694b8;
-  text-decoration: initial;
-}
-
-.box-a {
-  color: #d72828;
-  text-decoration: underline;
-}
-
-.box-a:hover {
-  color: #d72828;
-  text-decoration: initial;
-}
 
 .h1-page-title {
   display: block;
   font-size: 3.5em;
   font-weight: bold;
-}
-
-.alert-danger {
-  font-weight: bold;
-  z-index: 0;
 }
 
 .info-box {
@@ -327,6 +289,7 @@ div.space {
   background-color: rgb(39, 39, 39);
   color: rgb(190, 190, 190);
 }
+
 .white {
   color: rgb(39, 39, 39);
   background-color: rgb(190, 190, 190);
@@ -347,6 +310,10 @@ div.space {
   background-color: #d65858; 
   color: #ffe2e2 !important;
 }
+.pink {
+  background-color: #ff9f9f; 
+  color: #ffe3e3 !important;
+}
 .orange {
   background-color: #ffa600;
   color: #fff5e3 !important;
@@ -364,68 +331,74 @@ div.space {
   color: #f4c1ff !important;
 }
 
-
-.alert > a {
+.alert a {
   text-decoration: none;
 }
-.white > a, .white > a:visited {
+.white a, .white a:visited {
   color: rgb(27, 27, 27) !important
 }
-.white > a:hover {
+.white a:hover {
   color: rgb(0, 0, 0) !important
 }
-.black > a, .black > a:visited {
+.black a, .black a:visited {
   color: rgb(167, 167, 167) !important
 }
-.black > a:hover {
+.black a:hover {
   color: rgb(116, 116, 116) !important
 }
-.gray > a, .gray > a:visited {
+.gray a, .gray a:visited {
   color: rgb(148, 148, 148) !important
 }
-.gray > a:hover {
+.gray a:hover {
   color: rgb(85, 85, 85) !important
 }
-.green > a, .green > a:visited {
+.green a, .green a:visited {
   color: #80ff99 !important
 }
-.green > a:hover {
+.green a:hover {
   color: #61c475 !important
 }
-.yellow > a, .yellow > a:visited {
+.yellow a, .yellow a:visited {
   color: rgb(255, 239, 93) !important
 }
-.yellow > a:hover {
+.yellow a:hover {
   color: rgb(255, 234, 45) !important
 }
-.red > a, .red > a:visited {
-  color: #ff9191 !important
+.red a, .red a:visited {
+  color: #ff9393 !important
 }
-.red > a:hover {
-  color: #d86d6d !important
+.red a:hover {
+  color: #eb7676 !important
 }
-.orange > a, .orange > a:visited {
+.pink a, .pink a:visited {
+  color: #ff7e7e !important; 
+}
+.pink a:hover {
+  color: #ff6565 !important; 
+
+}
+.orange a, .orange a:visited {
   color: #ffd381 !important
 }
-.orange > a:hover {
+.orange a:hover {
   color: #ffbf48 !important
 }
-.blue > a, .blue > a:visited {
+.blue a, .blue a:visited {
   color: #9992ff !important
 }
-.blue > a:hover {
+.blue a:hover {
   color: #665cff !important
 }
-.sky-blue> a, .sky-blue > a:visited {
+.sky-blue> a, .sky-blue a:visited {
   color: #84e6ff !important
 }
-.sky-blue > a:hover {
+.sky-blue a:hover {
   color: #5fb8cc !important
 }
-.violet> a, .violet > a:visited {
+.violet> a, .violet a:visited {
   color: #eb90ff !important
 }
-.violet > a:hover {
+.violet a:hover {
   color: #e579fd !important
 }
 
@@ -444,6 +417,10 @@ a.button.yellow:hover {
 a.button.red:hover {
   color: #ff9191 !important;
   background-color: #912424
+}
+a.button.pnik:hover {
+  background-color: #ff6161; 
+  color: #ffb0b0 !important;
 }
 a.button.orange:hover {
   color: #ffd381 !important;
@@ -474,15 +451,13 @@ td > a:hover {
 
 
 b, i, div, strong, em, blockquote, p, .dropdown-content, li, q, span, figure, img, h1, h2, header, input, a, tr, td, form, button, input[type="submit"], .btn, #goog-wm-sb, .highlight, .archive__item-teaser {
-  -moz-transition: width 0.75s ease-in-out, left 1s ease-in-out;
-  -webkit-transition: width 0.75s ease-in-out, left 1s ease-in-out;
-  -moz-transition: width 0.75s ease-in-out, left 1s ease-in-out;
-  -o-transition: width 0.75s ease-in-out, left 1s ease-in-out;
-  transition: width 0.75s ease-in-out, left 1s ease-in-out;
-  animation: slide-up 0.50s ease;
+  -moz-transition: width 0.5s ease-in-out, left 0.5s ease-in-out;
+  -webkit-transition: width 0.5s ease-in-out, left 0.5s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out, left 0.5s ease-in-out;
+  -o-transition: width 0.5s ease-in-out, left 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out, left 0.5s ease-in-out;
+  animation: slide-up 0.25s ease;
   transition: all .5s linear;
-
-
 }
 
 
