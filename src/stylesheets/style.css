@@ -1,3 +1,10 @@
+@font-face {
+  font-family: SFPro-Rounded-Bold;
+  src: url("../font/sf-pro/SF-Pro-Rounded-Bold.otf");
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: SFPro-Rounded-Bold !important;
+}
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
@@ -14,7 +21,7 @@
   overflow: hidden;
   background-color: #333;
   z-index: 120;
-  font-weight: bold;
+  font-family: SFPro-Rounded-Bold !important;
 }
 .navbar {
   background-color: rgb(24, 26, 29);
@@ -38,7 +45,7 @@ body {
 html, body {
   color: azure;
   background-color: #2E3440;
-  
+  font-family: SFPro-Rounded-Bold
 }
 
 li {
@@ -70,11 +77,11 @@ code {
   background: #272c36;
   border: 1px solid rgb(22, 22, 22);
   border-radius: 4px;
-  font-weight: bold;
+  font-family: SFPro-Rounded-Bold !important;
 }
 
 .content-table-title {
-  font-weight: bold;
+  font-family: SFPro-Rounded-Bold !important;
   font-size: 150%;
 }
 
@@ -106,16 +113,14 @@ code {
 .h1-page-title {
   display: block;
   font-size: 3.5em;
-  font-weight: bold;
 }
 
 .info-box {
   margin: 2em 0;
   padding: 1em;
-  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
   background-color: #485e7b; 
   font-size: 1em !important;
-  font-weight: bold;
+  font-family: SFPro-Rounded-Bold !important;
   text-indent: initial;
   box-shadow: 0 2px 2px rgba(94,129,172,0.25) !important;
   color: #D8DEE9 !important;
@@ -171,7 +176,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   display: block;
 }
 .toc {
-  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,"Microsoft Yahei","微软雅黑",STXihei,"华文细黑",sans-serif;
+  font-family: SFPro-Rounded-Bold;
   color: #7a8288;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -190,9 +195,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .nav__title {
   margin: 0;
   padding: 0.5rem 1rem;
-  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,"Microsoft Yahei","微软雅黑",STXihei,"华文细黑",sans-serif;
   font-size: 1em;
-  font-weight: bold;
+  font-family: SFPro-Rounded-Bold !important;
 }
 .fa {
   display: inline-block;
@@ -234,7 +238,7 @@ ul, menu, dir {
   padding: 0.5rem 1rem;
   color: #D8DEE9;
   font-size: .6875em;
-  font-weight: bold;
+  font-family: SFPro-Rounded-Bold !important;
   line-height: 1.5;
   border-bottom: 1px solid #585d66;
 }
@@ -251,7 +255,7 @@ nav a {
 }
 
 a.button {
-  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  font-family: SFPro-Rounded-Bold;
   border-radius: 8px;
   font-weight: bold !important;
   padding: 1em;
@@ -276,7 +280,7 @@ div.space {
   padding-right: 26% !important;
 }
 .alert {
-  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+  font-family: SFPro-Rounded-Bold;
   font-weight: bolder !important;
   font-size: 1em !important;
   padding: 1em;
@@ -472,7 +476,7 @@ b, i, div, strong, em, blockquote, p, .dropdown-content, li, q, span, figure, im
 table {
   margin-bottom: 1em;
   width: 100%;
-  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,"Microsoft Yahei","微软雅黑",STXihei,"华文细黑",sans-serif;
+  font-family: SFPro-Rounded-Bold;
   font-size: .75em;
   border-collapse: collapse;
   border: 1px solid #bdc1c4 !important;
@@ -504,7 +508,7 @@ td {
 }
 th {
   padding: 0.75em;
-  font-weight: bold;
+  font-family: SFPro-Rounded-Bold !important;
   text-align: left;
   border-right: 1px solid #bdc1c4 !important;
   font-size: 12pt;
@@ -555,10 +559,9 @@ hr.short {
 .notice--info {
   margin: 2em 0 !important;
   padding: 1em;
-  font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,"Microsoft Yahei","微软雅黑",STXihei,"华文细黑",sans-serif;
   font-size: .75em !important;
   text-indent: initial;
-  font-weight: bold;
+  font-family: SFPro-Rounded-Bold !important;
   background-color: #485e7b;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(94,129,172,0.25);
@@ -566,26 +569,25 @@ hr.short {
 .dropdown {
   overflow: hidden;
   animation: slide-up 0.50s ease;
-  font-weight: bold;
+  font-family: SFPro-Rounded-Bold !important;
 
 }
 
 .dropdown .dropbtn {
-  font-weight: bold;
+  font-family: SFPro-Rounded-Bold !important;
 
   border: none;
   outline: none;
   color: white;
   padding: 14px 16px;
   background-color: #333;;
-  font-family: inherit;
   text-align: center;
   margin: 2px 0;
   animation: slide-up 0.50s ease;
 }
 
 .dropdown-content {
-  font-weight: bold;
+  font-family: SFPro-Rounded-Bold !important;
 
   display: none;
   background-color: #333;;
