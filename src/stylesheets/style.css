@@ -171,6 +171,9 @@ div#olli:hover span#other {
 .sidebar__right {
   margin-bottom: 1em;
   margin-top: 15%;
+    position: -webkit-sticky !important;
+      position: sticky !important;
+      overflow-y: auto;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
@@ -504,14 +507,14 @@ td {
   padding: 0.75em;
   border-bottom: 1px solid #bdc1c4 !important;
   border-right: 1px solid #bdc1c4 !important;
-  font-size: 10pt;
+  font-size: 12pt;
 }
 th {
   padding: 0.75em;
   font-family: SFPro-Rounded-Bold !important;
   text-align: left;
   border-right: 1px solid #bdc1c4 !important;
-  font-size: 12pt;
+  font-size: 14pt;
 }
 
 @media (max-width: 400px) {
