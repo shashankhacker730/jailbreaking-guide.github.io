@@ -5,6 +5,12 @@
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: SFPro-Rounded-Bold !important;
 }
+h5, .h5 {
+  font-size: 1.5rem !important;
+}
+h4, .h4 {
+  font-size: 1.25rem !important;
+}
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
@@ -378,10 +384,10 @@ div.space {
   color: #eb7676 !important
 }
 .pink a, .pink a:visited {
-  color: #ff7e7e !important; 
+  color: #c25656 !important; 
 }
 .pink a:hover {
-  color: #ff6565 !important; 
+  color: #c93a3a !important; 
 
 }
 .orange a, .orange a:visited {
