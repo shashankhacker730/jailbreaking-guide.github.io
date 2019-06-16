@@ -46,6 +46,7 @@ body {
   -o-transition: height .5s;
   -webkit-transition: height .5s;
   transition: height .5s;
+  padding-bottom: 3.5vw;
 }
 
 html, body {
@@ -680,7 +681,7 @@ hr.short {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 1vw;
   width: fit-content;
 }
 .toolbar * a {
@@ -694,7 +695,7 @@ a p {
   margin: 0
 }
 .ti {
-  font-size: 2.7vw;
+  font-size: 1.5vw;
 }
 @media (max-width: 892px) {
   .ti {
@@ -702,6 +703,9 @@ a p {
   }
   .toolbar .toolbar-item {
     font-size: 2vw;
+  }
+  body {
+    padding-bottom: 5vw;
   }
 }
 @media (max-width: 592px) {
@@ -711,6 +715,9 @@ a p {
   .toolbar .toolbar-item {
     font-size: 3.3vw;
   }
+  body {
+    padding-bottom: 7.7vw;
+  }
 }
 @media (max-width: 386px) {
   .ti {
@@ -718,5 +725,8 @@ a p {
   }
   .toolbar .toolbar-item {
     font-size: 4vw;
+  }
+  body {
+    padding-bottom: 10vw;
   }
 }
