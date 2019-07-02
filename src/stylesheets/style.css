@@ -343,7 +343,7 @@ div.space {
   background-color: #00a6cf;
   color: #caf4ff !important;
 }
-.violet {
+.purple {
   background-color: #ae00da;
   color: #f4c1ff !important;
 }
@@ -412,10 +412,10 @@ div.space {
 .sky-blue a:hover {
   color: #5fb8cc !important
 }
-.violet> a, .violet a:visited {
+.purple> a, .purple a:visited {
   color: #eb90ff !important
 }
-.violet a:hover {
+.purple a:hover {
   color: #e579fd !important
 }
 
@@ -451,7 +451,7 @@ a.button.sky-blue:hover {
   color: #84e6ff !important;
   background-color: #007896
 }
-a.button.violet:hover {
+a.button.purple:hover {
   color: #eb90ff !important;
   background-color: #8900ac
 
