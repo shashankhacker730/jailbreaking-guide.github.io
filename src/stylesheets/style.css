@@ -466,8 +466,8 @@ td > a:hover {
 }
 td a {
   padding: .5vw;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   background-color: rgb(80, 80, 80);
   border-radius: 15vw;
   max-height: 5vw;
@@ -541,7 +541,10 @@ b, i, div, strong, em, blockquote, p, .dropdown-content, li, q, span, figure, im
 
 table {
   margin-bottom: 1em;
-  width: 100%;
+  width: 95% !important;
+  max-width: 95% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   font-family: SFPro-Rounded-Bold;
   font-size: .75em;
   border-collapse: collapse;
@@ -564,6 +567,7 @@ thead {
 }
 tr, td, th {
   vertical-align: middle;
+  text-align: center;
 }
 
 td {
@@ -571,6 +575,7 @@ td {
   border-bottom: 1px solid #bdc1c4 !important;
   border-right: 1px solid #bdc1c4 !important;
   font-size: 12pt;
+  width: 30vw !important;
 }
 th {
   padding: 0.75em;
@@ -578,12 +583,14 @@ th {
   text-align: left;
   border-right: 1px solid #bdc1c4 !important;
   font-size: 14pt;
+  width: 30vw !important;
 }
-
-@media (max-width: 400px) {
+@media (max-width: 568px) {
   .hide {
     display: none !important;
   }
+}
+@media (max-width: 400px) {
   .h1-page-title {
     font-size: 2.75em;
     margin-left: 5px;
@@ -598,6 +605,7 @@ th {
   .col-lg-3 {
     display: none !important;
   }
+  
 }
 
 iframe {
@@ -702,7 +710,7 @@ a p {
     font-size: 4.4vw;
   }
   .toolbar .toolbar-item {
-    font-size: 3.3vw;
+    font-size: 3.6vw;
   }
   body {
     padding-bottom: 7.7vw;
@@ -713,7 +721,7 @@ a p {
     font-size: 6vw;
   }
   .toolbar .toolbar-item {
-    font-size: 3.75vw;
+    font-size: 3.85w;
   }
   body {
     padding-bottom: 10vw;
