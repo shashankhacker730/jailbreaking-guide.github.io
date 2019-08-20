@@ -264,23 +264,7 @@ nav a {
   text-decoration: none;
 }
 
-a.button {
-  font-family: SFPro-Rounded-Bold;
-  border-radius: 8px;
-  font-weight: bold !important;
-  padding: 1em;
-  font-size: 1em;
-  outline: none !important;
-  border: none !important;
-  text-decoration: none;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  margin-left: 15px;
-  margin-right: 15px;
-  white-space: pre;
-  display: inline-block;
-  text-indent: initial;
-}
+
 div.space {
   margin: 7%;
 }
@@ -299,129 +283,87 @@ div.space {
   padding: 1em;
   margin: 2em 0;
   text-indent: initial;
-  border-radius: 4px;
+  border-radius: 20px;
+  background-color: rgb(56, 56, 56)
 }
-
-.black {
-  background-color: rgb(39, 39, 39);
-  color: rgb(190, 190, 190);
+.subalert {
+  margin-left: 2%;
 }
-
-.white {
-  color: rgb(39, 39, 39);
-  background-color: rgb(190, 190, 190);
-}
-.gray {
-  background-color: #7D8189;
-  color: rgb(243, 243, 243) !important;
+.subalert p {
+  border-bottom: white 1px solid;
+  padding-bottom: 15px;
 }
 .green {
-  background-color: #3a8f49;
+  background-color: rgb(29, 189, 37);
   color: #dcffe3 !important;
 }
 .yellow {
-  background-color: #c7b300;
-  color: #fffde8 !important;
+  background-color: #dbc200;
+  color: #fffde4 !important;
+  border: black 2px dashed;
 }
 .red {
-  background-color: #d65858; 
-  color: #ffe2e2 !important;
-}
-.pink {
-  background-color: #e26a6a; 
-  color: #ffc1c1 !important;
-}
-.orange {
-  background-color: #ffa600;
-  color: #fff5e3 !important;
+  background-color: #ff4444; 
+  color: #ffcccc !important;
 }
 .blue {
-  background-color: #4c40ff;
-  color: #dad7ff !important;
-}
-.sky-blue {
-  background-color: #00a6cf;
-  color: #caf4ff !important;
-}
-.purple {
-  background-color: #ae00da;
-  color: #f4c1ff !important;
+  background-color: #006eff;
+  color: #c3ddff !important;
 }
 
 .alert a {
   text-decoration: none;
 }
-.white a, .white a:visited {
-  color: rgb(27, 27, 27) !important
-}
-.white a:hover {
-  color: rgb(0, 0, 0) !important
-}
-.black a, .black a:visited {
-  color: rgb(167, 167, 167) !important
-}
-.black a:hover {
-  color: rgb(116, 116, 116) !important
-}
-.gray a, .gray a:visited {
-  color: rgb(206, 206, 206) !important
-}
-.gray a:hover {
-  color: rgb(155, 155, 155) !important
-}
 .green a, .green a:visited {
-  color: #80ff99 !important
+  color: #a1ffb4 !important
 }
 .green a:hover {
-  color: #61c475 !important
+  color: #66ff85 !important
 }
 .yellow a, .yellow a:visited {
-  color: rgb(255, 239, 93) !important
+  color: #fff9a0 !important
 }
 .yellow a:hover {
-  color: rgb(255, 234, 45) !important
+  color: #fff565 !important
 }
 .red a, .red a:visited {
-  color: #ff9393 !important
+  color: #ffa7a7 !important
 }
 .red a:hover {
-  color: #eb7676 !important
-}
-.pink a, .pink a:visited {
-  color: #c25656 !important; 
-}
-.pink a:hover {
-  color: #c93a3a !important; 
-
-}
-.orange a, .orange a:visited {
-  color: #ffd381 !important
-}
-.orange a:hover {
-  color: #ffbf48 !important
+  color: #ff8e8e !important
 }
 .blue a, .blue a:visited {
-  color: #9992ff !important
+  color: #95c3ff !important
 }
 .blue a:hover {
-  color: #665cff !important
+  color: #79b3ff !important
 }
-.sky-blue> a, .sky-blue a:visited {
-  color: #84e6ff !important
+a.button {
+  font-family: SFPro-Rounded-Bold;
+  border-radius: 50px;
+  font-weight: bold !important;
+  padding: 0.75em 0.1em;
+  font-size: 1em;
+  outline: none !important;
+  border: none !important;
+  text-decoration: none;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 15px;
+  margin-right: 15px;
+  white-space: pre;
+  display: inline-block;
+  text-indent: initial;
+  color: rgb(218, 218, 218);
+  background-color: rgb(56, 56, 56)
 }
-.sky-blue a:hover {
-  color: #5fb8cc !important
+a.button:hover {
+  color: rgb(168, 168, 168);
+  background-color: rgb(50, 50, 50)
 }
-.purple> a, .purple a:visited {
-  color: #eb90ff !important
-}
-.purple a:hover {
-  color: #e579fd !important
-}
-
-a.button.gray:hover {
-  color: rgb(167, 167, 167)  !important;
-  background-color: rgb(68, 68, 68)
+a.button.gray, a.button.gray:hover {
+  background-color: rgb(32, 32, 32);
+  color: rgb(54, 54, 54);
 }
 a.button.green:hover {
   color: #80ff99  !important;
@@ -435,36 +377,17 @@ a.button.red:hover {
   color: #ff9191 !important;
   background-color: #912424
 }
-a.button.pink:hover {
-  background-color: #e44444; 
-  color: #ff8a8a !important;
-}
-a.button.orange:hover {
-  color: #ffd381 !important;
-  background-color: #b87700
-}
 a.button.blue:hover {
-  color: #5e57c9 !important;
-  background-color: #0e00d1
-}
-a.button.sky-blue:hover {
   color: #84e6ff !important;
   background-color: #007896
 }
-a.button.purple:hover {
-  color: #eb90ff !important;
-  background-color: #8900ac
-
-}
-
-
 td > a, td > a:visited {
   color: rgb(155, 155, 155)
 }
 td > a:hover {
   color: rgb(99, 99, 99)
 }
-td a {
+td a, td a:visited {
   padding: .5vw;
   margin-left: 0 !important;
   margin-right: 0 !important;
@@ -474,7 +397,7 @@ td a {
   color: rgb(255, 255, 255);
   white-space: nowrap;
 }
-td a:hover, td a:visited {
+td a:hover {
   background-color: rgb(58, 58, 58);
   color: rgb(170, 170, 170);
 }
