@@ -295,48 +295,48 @@ div.space {
 }
 .green {
   background-color: rgb(29, 189, 37);
-  color: #dcffe3 !important;
+  color: #fff !important;
 }
 .yellow {
   background-color: #dbc200;
-  color: #fffde4 !important;
+  color: #fff !important;
   border: black 2px dashed;
 }
 .red {
   background-color: #ff4444; 
-  color: #ffcccc !important;
+  color: #fff !important;
 }
 .blue {
   background-color: #006eff;
-  color: #c3ddff !important;
+  color: #fff !important;
 }
 
 .alert a {
   text-decoration: none;
 }
 .green a, .green a:visited {
-  color: #a1ffb4 !important
+  color: #d1ffda !important
 }
 .green a:hover {
-  color: #66ff85 !important
+  color: #97ffac !important
 }
 .yellow a, .yellow a:visited {
-  color: #fff9a0 !important
+  color: #fffccd !important
 }
 .yellow a:hover {
-  color: #fff565 !important
+  color: #fff898 !important
 }
 .red a, .red a:visited {
-  color: #ffa7a7 !important
+  color: #ffd7d7 !important
 }
 .red a:hover {
-  color: #ff8e8e !important
+  color: #ffb8b8 !important
 }
 .blue a, .blue a:visited {
-  color: #95c3ff !important
+  color: #d7e9ff !important
 }
 .blue a:hover {
-  color: #79b3ff !important
+  color: #b3d4ff !important
 }
 a.button {
   font-family: SFPro-Rounded-Bold;
@@ -366,19 +366,19 @@ a.button.gray, a.button.gray:hover {
   color: rgb(54, 54, 54);
 }
 a.button.green:hover {
-  color: #80ff99  !important;
+  color: #fff !important;
   background-color: #196e29
 }
 a.button.yellow:hover {
-  color: #ffef5d  !important;
+  color: #fff  !important;
   background-color: #a0942c
 }
 a.button.red:hover {
-  color: #ff9191 !important;
+  color: #fff !important;
   background-color: #912424
 }
 a.button.blue:hover {
-  color: #84e6ff !important;
+  color: #fff !important;
   background-color: #007896
 }
 td > a, td > a:visited {
