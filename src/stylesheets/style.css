@@ -284,7 +284,9 @@ div.space {
   margin: 2em 0;
   text-indent: initial;
   border-radius: 20px;
-  background-color: rgb(56, 56, 56)
+  background-color: rgb(56, 56, 56);
+  color: green !important;
+
 }
 .subalert {
   margin-left: 2%;
@@ -295,48 +297,48 @@ div.space {
 }
 .green {
   background-color: rgb(29, 189, 37);
-  color: #fff !important;
+  color: #5C6B7A !important;
 }
 .yellow {
-  background-color: #dbc200;
-  color: #fff !important;
-  border: black 2px dashed;
+  background-color: #E05A12;
+  color:#5C6B7A !important;
+  border: black 2px 2px 2px;
 }
 .red {
   background-color: #ff4444; 
-  color: #fff !important;
+  color: #5C6B7A !important;
 }
 .blue {
   background-color: #006eff;
-  color: #fff !important;
+  color: #5C6B7A !important;
 }
 
 .alert a {
   text-decoration: none;
 }
 .green a, .green a:visited {
-  color: #d1ffda !important
+  color: #5C6B7A !important
 }
 .green a:hover {
-  color: #97ffac !important
+  color: #383D47 !important
 }
 .yellow a, .yellow a:visited {
   color: #fffccd !important
 }
 .yellow a:hover {
-  color: #fff898 !important
+  color: #383D47 !important
 }
 .red a, .red a:visited {
-  color: #ffd7d7 !important
+  color: #5C6B7A !important
 }
 .red a:hover {
-  color: #ffb8b8 !important
+  color: #383D47 !important
 }
 .blue a, .blue a:visited {
-  color: #d7e9ff !important
+  color: #5C6B7A !important
 }
 .blue a:hover {
-  color: #b3d4ff !important
+  color:  #383D47 !important
 }
 a.button {
   font-family: SFPro-Rounded-Bold;
@@ -366,19 +368,19 @@ a.button.gray, a.button.gray:hover {
   color: rgb(54, 54, 54);
 }
 a.button.green:hover {
-  color: #fff !important;
+  color: #383D47 !important;
   background-color: #196e29
 }
 a.button.yellow:hover {
-  color: #fff  !important;
+  color: #383D47  !important;
   background-color: #a0942c
 }
 a.button.red:hover {
-  color: #fff !important;
+  color: #383D47 !important;
   background-color: #912424
 }
 a.button.blue:hover {
-  color: #fff !important;
+  color: #383D47 !important;
   background-color: #007896
 }
 td > a, td > a:visited {
