@@ -285,11 +285,12 @@ div.space {
   text-indent: initial;
   border-radius: 20px;
   background-color: rgb(56, 56, 56);
-  color: green !important;
+  color: #fff !important;
 
 }
 .subalert {
   margin-left: 2%;
+  color: #fff;
 }
 .subalert p {
   border-bottom: white 1px solid;
@@ -297,48 +298,44 @@ div.space {
 }
 .green {
   background-color: rgb(29, 189, 37);
-  color: #5C6B7A !important;
 }
 .yellow {
-  background-color: #E05A12;
-  color:#5C6B7A !important;
+  background-color: rgb(255, 196, 0);
   border: black 2px 2px 2px;
 }
 .red {
   background-color: #ff4444; 
-  color: #5C6B7A !important;
 }
 .blue {
   background-color: #006eff;
-  color: #5C6B7A !important;
 }
 
 .alert a {
   text-decoration: none;
 }
 .green a, .green a:visited {
-  color: #5C6B7A !important
+  color: rgb(124, 255, 130) !important
 }
 .green a:hover {
-  color: #383D47 !important
+  color: rgb(73, 148, 76) !important
 }
 .yellow a, .yellow a:visited {
-  color: #fffccd !important
+  color: rgb(255, 230, 147) !important
 }
 .yellow a:hover {
-  color: #383D47 !important
+  color: rgb(158, 143, 92) !important
 }
 .red a, .red a:visited {
-  color: #5C6B7A !important
+  color: #ff9a9a !important
 }
 .red a:hover {
-  color: #383D47 !important
+  color: #a56161 !important
 }
 .blue a, .blue a:visited {
-  color: #5C6B7A !important
+  color: #95c3ff !important
 }
 .blue a:hover {
-  color:  #383D47 !important
+  color:  #6281aa !important
 }
 a.button {
   font-family: SFPro-Rounded-Bold;
