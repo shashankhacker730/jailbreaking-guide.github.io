@@ -34,6 +34,7 @@
   </style>
   <link href="../../../src/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="../../../src/stylesheets/style.css" rel="stylesheet" type="text/css">
+  
   <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-117081817-3"></script>
@@ -50,6 +51,7 @@
   <meta name="viewport" src="width=device-width,%20initial-scale=1,%20shrink-to-fit=yes">
   <title>iOS Jailbreak Guide - Getting Started</title>
   <script src="../../../src/js/jquery.min.js"></script>
+  <script src="../../../src/js/main.js"></script>
   <link rel="shortcut icon" href="../../../src/images/icon.png" type="image/x-icon">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" rel="stylesheet" type="text/css">
 
@@ -80,7 +82,7 @@
   </script>
 </head>
 
-<body>
+<body onload="init()">
   <div class="toolbar">
     <div class="toolbar-item">
 
@@ -125,7 +127,7 @@
         <div class="alert blue"> Join the <a target="_blank" href="https://discord.gg/jQnbgan">Jailbreak
             Guide Discord Server</a> and while you're there, consider <a target="_blank" href="../faq/contribute/">contributing</a>
             to the guide! </div>
-          <div class="alert green">We have new iOS 12.4 and SSH Jailbreak Guides!</div>
+          <div class="alert green">Hover over a guide link, and be greeted by a tooltip!</div>
         <!-- Mini Ad -->
         <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-9986048752291588"
           data-ad-slot="1609046323" data-ad-format="auto" data-full-width-responsive="true"></ins>
@@ -147,113 +149,87 @@
             <tr>
               <th colspan="2" style="text-align: center">Supported Devices</th>
               <th style="text-align: center">Guide</th>
-              <th class="hide" style="text-align: center">Notes</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td colspan="2" style="text-align: center; font-weight: bold;">12.0 - 12.4<br>A7 - A12*</td>
-              <td style="text-align: center; font-weight: bold;"><a href="../chimera/">Chimera</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">No A12 Support for &gt;=12.1.3
+              <td colspan="2" style="text-align: center; font-weight: bold;">12.0 - 12.4<br>A7 - A12X*</td>
+              <td data-toggle="tooltip" data-placement="top" title="No A12 Support for &gt;=12.1.3 || No official Cydia support" style="text-align: center; font-weight: bold;"><a href="../chimera/">Chimera</a></td>
               </td>
             </tr>
             <tr>
-              <td colspan="2" style="text-align: center; font-weight: bold;">11.0 - 12.4<br>A7 - A12</td>
-              <td style="text-align: center; font-weight: bold;"><a href="../unc0ver/">Unc0ver</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">SSH-Only
-                for &lt;=12.1.2 on A12</td>
+              <td colspan="2" style="text-align: center; font-weight: bold;">11.0 - 12.4<br>A7 - A12X*</td>
+              <td data-toggle="tooltip" data-placement="top" title="SSH-Only for &lt;=12.1.2 on A12" style="text-align: center; font-weight: bold;"><a href="../unc0ver/">Unc0ver</a></td>
             </tr>
             <tr>
-              <td colspan="2" style="text-align: center; font-weight: bold;">11.0 - 12.1.2<br>A7 - A12</td>
-              <td style="text-align: center; font-weight: bold;"><a  href="../unc0ver-dark/">Unc0ver
+              <td colspan="2" style="text-align: center; font-weight: bold;">11.0 - 12.1.2<br>A7 - A12X*</td>
+              <td data-toggle="tooltip" data-placement="top" title="SSH-Only for &lt;=12.1.2 on A12" style="text-align: center; font-weight: bold;"><a  href="../unc0ver-dark/">Unc0ver
                   Dark</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">SSH-Only
-                for A12</td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">11.0 - 11.4.1<br>A7 - A11</td>
-              <td style="text-align: center; font-weight: bold;"><a  href="../electra/">Electra</a>
+              <td data-toggle="tooltip" data-placement="top" title="No official Cydia support" style="text-align: center; font-weight: bold;"><a  href="../electra/">Electra</a>
               </td>
-              <td class="hide" style="text-align: center; font-weight: bold;"><a target="_blank" href="../misc/use-cydia-with-sileo/">Cydia Can Be Installed</a></td>
-            </tr>
+              </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">10.X<br>64-Bit</td>
-              <td style="text-align: center; font-weight: bold;"><a href="../totally-not-spyware/">Totally
+              <td data-toggle="tooltip" data-placement="top" title="Will break unsupported devices" style="text-align: center; font-weight: bold;"><a href="../totally-not-spyware/">Totally
                   Not Spyware</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;"><i>Will</i>
-                break unsupported devices</td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">10.0 - 10.3.3<br>64-Bit</td>
-              <td style="text-align: center; font-weight: bold;"><a href="../double-h3lix/">Double
+              <td data-toggle="tooltip" data-placement="top" title="A7 - A9 / No iPhone 7 Support" style="text-align: center; font-weight: bold;"><a href="../double-h3lix/">Double
                   H3lix</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">A7
-                - A9 / No iPhone 7 Support</td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">10.0 - 10.3.3<br>32-Bit</td>
               <td style="text-align: center; font-weight: bold;"><a href="../h3lix/">H3lix</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;"><br>
               </td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">10.3 - 10.3.3</td>
               <td style="text-align: center; font-weight: bold;"><a href="../g0blin/">g0blin</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;"><br>
               </td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">10.1.X / 10.2</td>
-              <td style="text-align: center; font-weight: bold;"><a href="../yalu/">Yalu</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">32-Bit
-                support only on 10.2</td>
+              <td data-toggle="tooltip" data-placement="top" title="32-Bit support only on 10.2" style="text-align: center; font-weight: bold;"><a href="../yalu/">Yalu</a></td>
             </tr>
             <tr>
               <td colspan="2"  style="text-align: center; font-weight: bold;">9.3.5 &amp; 9.3.6<br>32-Bit</td>
-              <td style="text-align: center; font-weight: bold;"><a href="../phoenix/">Phoenix</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">A5
-                &amp; A6 Only</td>
+              <td data-toggle="tooltip" data-placement="top" title="Apple A5 and A6 support only" style="text-align: center; font-weight: bold;"><a href="../phoenix/">Phoenix</a></td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">9.1 - 9.3.4<br>32-Bit</td>
-              <td style="text-align: center; font-weight: bold;"><a href="../home-depot/">Home Depot</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">aka Wall Supplies
-              </td>
+              <td data-toggle="tooltip" data-placement="top" title="aka Wall Supplies" style="text-align: center; font-weight: bold;"><a href="../home-depot/">Home Depot</a></td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">9.2 - 9.3.3<br>64-Bit</td>
               <td style="text-align: center; font-weight: bold;"><a href="../pangu92/">Pangu92</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;"><br>
               </td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">9.0 - 9.1</td>
               <td style="text-align: center; font-weight: bold;"><a href="../pangu9/">Pangu9</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;"><br>
               </td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">8.4.1</td>
               <td style="text-align: center; font-weight: bold;"><a href="../etason/">etas0n</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;"><br>
               </td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">8.0 - 8.4</td>
               <td style="text-align: center; font-weight: bold;"><a href="../taig/">TaiG</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;"><br>
               </td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">6.1.3 - 6.1.6</td>
-              <td style="text-align: center; font-weight: bold;"><a href="../p0sixspwn/">P0sixspwn</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">Utility
-                may not work on macOS 10.13 or newer</td>
+              <td data-toggle="tooltip" data-placement="top" title="Utility may not work on macOS 10.13 (Mojave) and newer" style="text-align: center; font-weight: bold;"><a href="../p0sixspwn/">P0sixspwn</a></td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">3.1.2 - 4.0.1</td>
               <td style="text-align: center; font-weight: bold;"><a href="../jailbreakme-star/">Star</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;"><br>
               </td>
             </tr>
           </tbody>
@@ -288,75 +264,56 @@
             <tr>
               <th colspan="2" style="text-align: center">Supported Devices</th>
               <th style="text-align: center">Guide</th>
-              <th class="hide" style="text-align: center">Info</th>
             </tr>
           </thead>
           <tbody>
               <tr>
                   <td colspan="2" style="text-align: center; font-weight: bold;">All Devices</td>
-                  <td style="text-align: center; font-weight: bold;"><a href="../misc/ssh/">SSH/SFTP</a></td>
-                  <td class="hide" style="text-align: center; font-weight: bold;">Use the SSH/SFTP protocol to access your iOS Device</td>
+                  <td data-toggle="tooltip" data-placement="top" title="Access your device over the SSH protocol" style="text-align: center; font-weight: bold;"><a href="../misc/ssh/">SSH/SFTP</a></td>
                 </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">Most
                 Devices supporting iOS 12</td>
               <td style="text-align: center; font-weight: bold;"><a href="../misc/install-ios-13/">Install
                   iOS 13 Beta</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">Guide
-                to installing iOS 13 Developer Beta</td>
             </tr>
             <tr>
                 <td colspan="2" style="text-align: center; font-weight: bold;">All Devices on iOS 11 - 12.2</td>
                 <td style="text-align: center; font-weight: bold;"><a href="../misc/use-cydia-with-sileo/">Install Cydia Alongside Sileo</a></td>
-                <td class="hide" style="text-align: center; font-weight: bold;">Guide
-                  to installing Cydia alongside Sileo</td>
               </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">10.X / 9.X<br>iPhone 4S/5 &amp; iPod Touch 5</td>
-              <td style="text-align: center; font-weight: bold;"><a href="../misc/t3nbelow/">T3NBelow</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">Downgrade
-                Guide for iPhone 4S/5, and iPod Touc 5</td>
+              <td data-toggle="tooltip" data-placement="top" title="Downgrade iOS on iPhone 4S/5 and iPod Touch 5" style="text-align: center; font-weight: bold;"><a href="../misc/t3nbelow/">T3NBelow</a></td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">5 - 10<br>Select 32-Bit Devices</td>
-              <td style="text-align: center; font-weight: bold;"><a href="../misc/coolbooter/">CoolBooter</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">DualBoot
-                an older version of iOS</td>
+              <td data-toggle="tooltip" data-placement="top" title="Dualboot an older version of iOS" style="text-align: center; font-weight: bold;"><a href="../misc/coolbooter/">CoolBooter</a></td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">10.3+</td>
-              <td style="text-align: center; font-weight: bold;"><a href="../misc/snapback/">SnapBack</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">Time
-                Machine-esque backups for iOS</td>
+              <td data-toggle="tooltip" data-placement="top" title="Time Machine-esque backups for iOS" style="text-align: center; font-weight: bold;"><a href="../misc/snapback/">SnapBack</a></td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">All</td>
               <td style="text-align: center; font-weight: bold;"><a href="../misc/removejb/">Remove
                   Jailbreak</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">Guide
-                for removing your Jailbreak</td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">All</td>
               <td style="text-align: center; font-weight: bold;"><a href="../misc/backup-to-itunes/">iTunes Backup</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">Guide to backing up your iOS Device through iTunes</td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">>=8.0</td>
               <td style="text-align: center; font-weight: bold;"><a href="../misc/preventing-updates/">Preventing Updates</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">Prevent your iOS Device from downloading/installing iOS Updates</td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">All</td>
-              <td style="text-align: center; font-weight: bold;"><a href="../misc/saving-blobs/">Save Blobs</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">Save SHSH Blobs for future downgrading</td>
+              <td data-toggle="tooltip" data-placement="top" title="Save SHSH Blobs for future downgrading" style="text-align: center; font-weight: bold;"><a href="../misc/saving-blobs/">Save Blobs</a></td>
             </tr>
             <tr>
               <td colspan="2" style="text-align: center; font-weight: bold;">3.x.x</td>
-              <td style="text-align: center; font-weight: bold;"><a href="../jailbreakme-star-fix/">Fix Untrusted Server
+              <td data-toggle="tooltip" data-placement="top" title="Fix for Jailbreak.me (Star)" style="text-align: center; font-weight: bold;"><a href="../jailbreakme-star-fix/">Fix Untrusted Server
                   Certificate</a></td>
-              <td class="hide" style="text-align: center; font-weight: bold;">Fix for Jailbreak.me (Star) Jailbreaking
-                Guide</td>
             </tr>
           </tbody>
         </table>
