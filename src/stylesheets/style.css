@@ -289,17 +289,34 @@ div.space {
   color: #fff !important;
 
 }
+.guides {
+  text-align: center !important;
+}
+h3, hr.short{
+  margin-left: 7.5px;
+}
+@media (min-width: 926px) {
+  .alert.guide {
+    width: 30%;
+  }
+}
+@media (max-width: 925px) {
+  .alert.guide {
+    width: 45%;
+  }
+}
 .alert.guide {
   font-family: SFPro-Rounded-Bold;
   font-weight: bolder !important;
   font-size: 1em !important;
   padding: 1em;
-  margin: 1em .35em;
+  margin: 1em .35em; 
+  width: auto;
   text-indent: initial;
   border-radius: 20px;
   background-color: rgb(56, 56, 56);
   color: #fff !important;
-  width: 30%;
+  
   display: inline-block;
   transition: all 0.1s ease-in;
 }
@@ -310,7 +327,7 @@ div.space {
   transform: scale(0.98)
 }
 .alert.guide h3 {
-  text-decoration: underline;
+  
   margin-bottom: 15px;
   word-wrap: normal;
 }
@@ -576,7 +593,6 @@ iframe {
 }
 hr.short {
   width: 33%;
-  margin-left: -0.01%;
 }
 .li > a, li > a:visited {
   color: #fff;
