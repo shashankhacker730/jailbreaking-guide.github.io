@@ -149,7 +149,9 @@ img:hover {
   -ms-transform: scale(1); /* IE 9 */
   -webkit-transform: scale(1); /* Safari and Chrome */
 }
-
+div#jailbreak-methods a, div#jailbreak-methods a:hover, div#other-guides a, div#others a:hover, div#legacy-guides a, div#legacy-guides a:hover{
+  color: white;
+}
 div#olli span#normal {
   display: inline;
 }
@@ -320,6 +322,13 @@ h3, hr.short{
   
   display: inline-block;
   transition: all 0.1s ease-in;
+}
+.alert.guide.tbd,  .alert.guide.tbd:hover {
+  background-color: rgba(56, 56, 56, 0.452) !important;
+  transform: scale(1)
+}
+.alert.guide.tbd:active {
+  transform: scale(0.99)
 }
 .alert.guide:hover {
 	transform: scale(1.02)
