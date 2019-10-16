@@ -387,10 +387,10 @@ h3, hr.short{
   text-decoration: none;
 }
 .green a, .green a:visited {
-  color: rgb(124, 255, 130) !important
+  color: rgb(0, 71, 2) !important
 }
 .green a:hover {
-  color: rgb(73, 148, 76) !important
+  color: rgb(0, 124, 4) !important
 }
 .yellow a, .yellow a:visited {
   color: rgb(255, 230, 147) !important
@@ -638,7 +638,6 @@ hr.short {
   font-size: .75em !important;
   text-indent: initial;
   font-family: SFPro-Rounded-Bold !important;
-  background-color: #485e7b;
   border-radius: 20px;
   background-color: rgb(56, 56, 56);
 }
@@ -646,7 +645,10 @@ hr.short {
   top: 0;
   font-size: 1.35em;
 }
-
+.notice--info img {
+  border: rgb(41, 41, 41) solid 4.75px;
+  border-radius: 5px;
+}
 @keyframes slide-up {
   0% {
       opacity: 0;
