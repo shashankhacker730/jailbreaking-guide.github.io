@@ -69,16 +69,32 @@ li {
 hr {
   border-top: 1px solid #f2f2f2;
 }
-
+div.center {
+  text-align: center;
+}
+div.codeblock {
+  background-color: rgb(41, 41, 41);
+  padding: 5px !important;
+  border-radius: 5px !important;
+}
 code {
   padding: 1px;
   background: #272c36;
   border: 1px solid lightslategrey;
   border-radius: 4px;
   color: rgb(221, 225, 230);
-  white-space: nowrap;
+  padding: 2px;
 }
-
+.alert code {
+  word-wrap: normal !important;
+  width: 100%;
+  background: rgb(41, 41, 41) !important;
+  border: none;
+  padding: 5px !important;
+  border-radius: 5px !important;
+  
+  line-height: 100%;
+}
 .content-table {
   padding: 5px;
   color: #f2f2f2;
@@ -323,6 +339,7 @@ h3, hr.short{
   display: inline-block;
   transition: all 0.1s ease-in;
 }
+
 .alert.guide.tbd,  .alert.guide.tbd:hover {
   background-color: rgba(56, 56, 56, 0.452) !important;
   transform: scale(1)
