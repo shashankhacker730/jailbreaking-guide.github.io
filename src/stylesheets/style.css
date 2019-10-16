@@ -634,13 +634,17 @@ hr.short {
 
 .notice--info {
   margin: 2em 0 !important;
-  padding: 1em;
+  padding: 1.2em;
   font-size: .75em !important;
   text-indent: initial;
   font-family: SFPro-Rounded-Bold !important;
   background-color: #485e7b;
-  border-radius: 4px;
-  box-shadow: 0 1px 1px rgba(94,129,172,0.25);
+  border-radius: 20px;
+  background-color: rgb(56, 56, 56);
+}
+.notice--info p {
+  top: 0;
+  font-size: 1.35em;
 }
 
 @keyframes slide-up {
