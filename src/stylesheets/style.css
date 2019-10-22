@@ -306,7 +306,8 @@ div.space {
   border-radius: 20px;
   background-color: rgb(56, 56, 56);
   color: #fff !important;
-
+  display: inline-block;
+  transition: all 0.1s ease-in;
 }
 .guides {
   text-align: center !important;
@@ -427,31 +428,22 @@ a.button {
   display: inline-block;
   text-indent: initial;
   color: rgb(218, 218, 218);
-  background-color: rgb(56, 56, 56)
+  background-color: rgb(56, 56, 56);
+  transition: all 0.1s ease-in;
 }
 a.button:hover {
-  color: rgb(168, 168, 168);
-  background-color: rgb(50, 50, 50)
+  transform: scale(1.02)
 }
-a.button.gray, a.button.gray:hover {
+a.button:active {
+  transform: scale(0.98)
+}
+a.button.gray, .a.button.gray:hover {
+  transform: scale(1);
   background-color: rgb(32, 32, 32);
   color: rgb(54, 54, 54);
 }
-a.button.green:hover {
-  color: #383D47 !important;
-  background-color: #196e29
-}
-a.button.yellow:hover {
-  color: #383D47  !important;
-  background-color: #a0942c
-}
-a.button.red:hover {
-  color: #383D47 !important;
-  background-color: #912424
-}
-a.button.blue:hover {
-  color: #383D47 !important;
-  background-color: #007896
+a.button.gray:active {
+  transform: scale(0.99)
 }
 td > a, td > a:visited {
   color: rgb(155, 155, 155)
