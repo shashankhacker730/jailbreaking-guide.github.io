@@ -572,7 +572,11 @@ hr.short {
       transform: translateY(0);
   }
 }
-
+@media (max-width: 1236px) {
+  .toolbar {
+    padding-bottom: .175em;
+  }
+}
 .toolbar {
   text-align: center;
   border-top: 1.5px solid rgb(39, 40, 44);
@@ -582,7 +586,8 @@ hr.short {
   bottom: 0;
   width: 100%;
   font-family: SFPro-Rounded-Bold !important;
-  z-index: 9999
+  z-index: 9999;
+  
 }
 .toolbar .toolbar-item {
   display: inline-block;
