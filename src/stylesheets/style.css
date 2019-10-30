@@ -445,67 +445,6 @@ a.button.gray, .a.button.gray:hover {
 a.button.gray:active {
   transform: scale(0.99)
 }
-td > a, td > a:visited {
-  color: rgb(155, 155, 155)
-}
-td > a:hover {
-  color: rgb(99, 99, 99)
-}
-td a, td a:visited {
-  padding: .5vw;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  background-color: rgb(80, 80, 80);
-  border-radius: 15vw;
-  max-height: 5vw;
-  color: rgb(255, 255, 255);
-  white-space: nowrap;
-}
-td a:hover {
-  background-color: rgb(58, 58, 58);
-  color: rgb(170, 170, 170);
-}
-@media (max-width: 1336px) {
-  td a {
-    padding: .6vw;
-  }
-}
-@media (max-width: 1228px) {
-  td a {
-    padding: .7vw;
-  }
-}
-@media (max-width: 1076px) {
-  td a {
-    padding: .8vw;
-  }
-}
-@media (max-width: 876px) {
-  td a {
-    padding: 1vw;
-  }
-}
-@media (max-width: 768px) {
-  td a {
-    padding: 1.2vw;
-  }
-}
-@media (max-width: 664px) {
-  td a {
-    padding: 1.4vw;
-  }
-}
-@media (max-width: 468px) {
-  td a {
-    padding: 2.5vw;
-  }
-}
-@media (max-width: 264px) {
-  td a {
-    padding: 3.9vw;
-  }
-}
-/*a:visited, a { }*/
 
 b, i, div, strong, em, blockquote, p, .dropdown-content, li, q, span, figure, img, h1, h2, header, input, a, tr, td, form, button, input[type="submit"], .btn, #goog-wm-sb, .highlight, .archive__item-teaser {
   -moz-transition: width 0.5s ease-in-out, left 0.5s ease-in-out;
@@ -544,34 +483,7 @@ table {
   border-spacing: 2px !important;
   border-color: grey !important;
 }
-colgroup {
-  display: table-column-group;
-}
-thead {
-  background-color: rgb(63, 63, 63);
-  border-bottom: 1px solid #bdc1c4 !important;
-  color: #fff;
-}
-tr, td, th {
-  vertical-align: middle;
-  text-align: center;
-}
 
-td {
-  padding: 0.75em;
-  border-bottom: 1px solid #bdc1c4 !important;
-  border-right: 1px solid #bdc1c4 !important;
-  font-size: 12pt;
-  width: 30vw !important;
-}
-th {
-  padding: 0.75em;
-  font-family: SFPro-Rounded-Bold !important;
-  text-align: left;
-  border-right: 1px solid #bdc1c4 !important;
-  font-size: 14pt;
-  width: 30vw !important;
-}
 @media (max-width: 568px) {
   .hide {
     display: none !important;
@@ -593,10 +505,6 @@ th {
     display: none !important;
   }
   
-}
-
-iframe {
-  margin-top: 15px;
 }
 .faq {
   margin-top: 5%;
