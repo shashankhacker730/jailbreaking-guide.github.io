@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.li {
+    float: left;
+}
+.li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.li a:hover {
+    background-color: #121;
+}
+table {
+    margin-bottom: 5%;
+}
+            
+</style>
+<link href="../../../src/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="../../../src/stylesheets/style.css" rel="stylesheet" type="text/css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127081817-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127081817-3');
+</script>
+        <meta charset="utf-8">
+        <meta name="viewport" src="width=device-width, initial-scale=1, shrink-to-fit=yes">
+        <title>iOS Jailbreak Guide - Checkra1n</title>
+<link rel="apple-touch-startup-image" href="https://jailbreakguide.me/src/images/icon.png">
+
+<meta name="apple-mobile-web-app-title" content="Jailbreak Guide">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <script src="../../../src/js/jquery.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" type="text/css">
+
+        <link rel="shortcut icon" href="../../../src/images/icon.png" type="image/x-icon" />
+        <link rel="icon" href="../../../src/images/icon.png" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="../../../src/images/icon.png">
+        <link rel="icon" href="../../../src/images/icon.png" type="image/x-icon" />
+        <script src="../../../src/js/bootstrap.bundle.min.js"></script>
+        <script src="../../../src/js/main.js"></script>
+        <link href="../../../src/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../../../src/stylesheets/style.css" rel="stylesheet" type="text/css">
+                
+        <meta name="site-name" content="Jailbreak Guides">
+        <meta name="description" content="Jailbreak Guide for the semi-tethered Checkra1n Jailbreak. Checkra1n supports devices iPhone 5s - iPhone X. Checkra1n supports iOS 12.3 and higher.">
+        <meta name="keywords" content="#">
+        <meta name="author" content="Jailbreak Guide">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- OG Meta Tags-->
+        <meta property="og:title" content="Jailbreak Guide - Checkra1n">
+        <meta property="og:description" content="#">        
+        <meta property="og:image" src="../../../src/images/icon.png">
+    </head>
+    <body>
+            <div class="toolbar">
+                    <a href="../../../">
+                    <div class="toolbar-item">
+                        
+                      <i class="fas fa-home ti"></i>
+                        <p>Home</p>
+                     
+                    </div>
+                </a>
+                <a href="../faq">
+                    <div class="toolbar-item">
+                        
+                      <i class="fas fa-question-circle ti"></i>
+                        <p>FAQ</p>
+                     
+                    </div>
+                </a>
+                <a href="../../../credits/">
+                    <div class="toolbar-item">
+                        
+                     <i class="fas fa-list ti"></i>
+                        <p>Credits</p>
+                      
+                    </div>
+                </a>
+                <a href="../essentials">
+                    <div class="toolbar-item">
+                        
+                     <i class="fas fa-star ti"></i>
+                        <p>Essentials</p>
+                      
+                    </div>
+                </a>
+                    </div> 
+                    
+        <div class="container-src container-fluid cntr">
+            <div class="row">
+                <div class="col-lg-3">
+                    <aside class="sidebar__right">
+                        <nav class="toc">
+                            <header><h4 class="nav__title"><i class="fas fa-file"></i>Table of Contents</h4></header>
+                        <ul class="toc__menu" id="markdown-toc">
+                          <li><a href="#step-1" id="markdown-toc-required-reading">Checkra1n App</a></li>
+                          <li><a href="#step-2" id="markdown-toc-version-table">Using Checkra1n</a></li>
+                          <li><a href="#step-3" id="markdown-toc-version-table">Checkra1n Installer</a></li>
+
+                        </ul>
+                          </nav>
+                        </aside>
+                        <!-- Mini Ad -->
+                        <ins class="adsbygoogle"
+                            style="display:block"
+                            data-ad-client="ca-pub-9986048752291588"
+                            data-ad-slot="1609046323"
+                            data-ad-format="auto"
+                            data-full-width-responsive="true"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="mt-5 h1-page-title">Checkra1n</h1>
+                    <hr>
+                    <div class="alert blue">
+                        This method only supports A7-A11 and iOS 12.3 and up. Checkra1n currently lacks support for: 
+                        <li>iPad Air 2</li>
+                        <li>iPad 5th Gen</li>
+                        <li>iPad Pro</li>
+                    </div>
+                   
+                    <div class="alert red">
+                        Before proceeding with this guide, there are some things you will need to consider;
+                        <ul>
+                              <li>This is a beta, so use at your own risk</li>
+                              <li>This release is MacOS only, Windows and Linux support are still being worked on</li>
+                              <li>Cydia is the package manager that can be installed, support for others will be added</li>
+                        </ul>
+                    </div>
+                    
+                    
+                     For this guide you will need the following;
+                    <ul>
+                        <li><a target="_blank" href="https://checkra.in/">Checkra1n</a></li>
+                        <li>MacOS</li>
+                        <li>A lighting connector</li>
+                       
+                    </ul>
+                                        <!-- Mini Ad -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9986048752291588"
+     data-ad-slot="1609046323"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                    <hr>
+
+                    <h5 id="step-1" ><a class="step" href="#step-1">Step 1: Checkra1n Application</a></h5>
+                    <ol>
+                        <li>After downloading the <a target="_blank" href='https://checkra.in/releases/'>latest Checkra1n</a>, move the application from the <code>DMG</code> folder to the <code>Applications</code> folder</li>
+                        <li>Plug your iDevice into your computer and run the Checkra1n application</li>
+                    </ol>
+                   
+                    <hr>
+                    <h5 id="step-2" ><a class="step" href="#step-2">Step 2: Using Checkra1n</a></h5>
+                    <!--:/ i felt i did not need to reiterate the instructions as the application goes through step by step-->
+                    <div class="alert purple">
+                        Follow the on-screen instructions that the Checkra1n application displays. 
+                        </div>
+                    <hr>
+                    <h5 id="step-3" ><a class="step" href="#step-3">Step 3: Checkra1n Installer</a></h5>
+                    <ol>
+                        <li>After your device resprings, you should the Checkra1n Installer installed on your Home Screen</li>
+                        <li>Launch the new checkra1n app and it will show a list of package managers, select the package manager you desire and it should install</li>
+                        <li>Launch the package manger and let it (re)load its packages. If you are prompted for an upgrade, tap Upgrade All</li>
+                    </ol>
+                    <div class="alert green">
+                        Once all upgrades are completed and you've resprung, you are free to use any (compatible) jailbreak tweaks.
+                         Also feel free to check out the <a href="../essentials/"  >Jailbreaking Essentials!</a>
+                    </div>
+                    <div class="alert red">
+                       If your package manager and/or any tweaks you have aren't working check <a target="_blank" class="a-alert" href="../troubleshooting/">Troubleshooting</a> page. Make sure the tweak is compatible for your ios version before hand.
+                        </div>
+
+                <hr>
+                <div class="alert ">
+                Join the <a   target="_blank" href="https://discord.gg/jQnbgan">Jailbreak Guide Discord Server</a>!
+                </div>
+                <p>If you liked this tutorial, share it with others that are interested in jailbreaking their iOS Devices</p>
+                <hr>
+                <p>Help the Jailbreak Guide out by <a   target="_blank" href="../faq/contribute/">contributing</a>!</p>
+                
+                </div>
+                <div class="col-lg-3">
+                  <!-- Mini Ad -->
+                  <ins class="adsbygoogle"
+                  style="display:block"
+                  data-ad-client="ca-pub-9986048752291588"
+                  data-ad-slot="1609046323"
+                  data-ad-format="auto"
+                  data-full-width-responsive="true"></ins>
+              <script>
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
+                </div>
+        </div>
+    </body>
+</html>
