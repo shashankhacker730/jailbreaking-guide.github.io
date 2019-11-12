@@ -1,6 +1,6 @@
 @font-face {
   font-family: SFPro-Rounded-Bold;
-  src: url("../font/sf-pro/SF-Pro-Rounded-Bold.otf");
+  src: url("../font/sf-pro/SF-Pro-Display-Heavy.otf");
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: SFPro-Rounded-Bold !important;
@@ -370,17 +370,17 @@ h3, hr.short{
   padding-bottom: 15px;
 }
 .green {
-  background-color: rgb(29, 189, 37);
+  background-color: rgb(29, 94, 33);
 }
 .yellow {
   background-color: rgb(221, 169, 0);
   border: black 2px 2px 2px;
 }
 .red {
-  background-color: #ff4444; 
+  background-color: rgb(94, 34, 34);
 }
 .blue {
-  background-color: #006eff;
+  background-color: rgb(29, 43, 88);
 }
 
 .alert a {
