@@ -2,6 +2,10 @@
   font-family: SFPro-Rounded-Bold;
   src: url("../font/sf-pro/SF-Pro-Rounded-Bold.otf");
 }
+@font-face {
+  font-family: SFPro-Display-Semibold;
+  src: url("../font/sf-pro/SF-Pro-Display-Semibold.otf");
+}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: SFPro-Rounded-Bold !important;
 }
@@ -10,6 +14,9 @@ h5, .h5 {
 }
 h4, .h4 {
   font-size: 1.25rem !important;
+}
+p {
+  font-family: SFPro-Display-Semibold;
 }
 @media (min-width: 992px) {
   body {
@@ -20,18 +27,14 @@ h4, .h4 {
 .center {
   text-align: center
 }
-.ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
   z-index: 120;
-  font-family: SFPro-Rounded-Bold !important;
-}
-.navbar {
-  background-color: rgb(17, 17, 17);
-  
+  font-family: SFPro-Display-Semibold !important;
 }
 .col-lg-6 {
 	margin-bottom: 7%;
@@ -57,7 +60,7 @@ body {
 html, body {
   color: #f2f2f2;
   background-color: rgb(22, 22, 22);
-  font-family: SFPro-Rounded-Bold;
+  font-family: SFPro-Display-Semibold;
   overflow-x: hidden;
 }
 
@@ -101,23 +104,6 @@ code {
   
   line-height: 100%;
 }
-.content-table {
-  padding: 5px;
-  color: #f2f2f2;
-  background: #272c36;
-  border: 1px solid rgb(22, 22, 22);
-  border-radius: 4px;
-  font-family: SFPro-Rounded-Bold !important;
-}
-
-.content-table-title {
-  font-family: SFPro-Rounded-Bold !important;
-  font-size: 150%;
-}
-
-.content-table-hr {
-  border-top: 1px solid rgb(22, 22, 22);
-}
 
 .a-table {
   color: #b8d2df;
@@ -150,7 +136,7 @@ code {
   padding: 1em;
   background-color: #485e7b; 
   font-size: 1em !important;
-  font-family: SFPro-Rounded-Bold !important;
+  font-family: SFPro-Display-Semibold !important;
   text-indent: initial;
   box-shadow: 0 2px 2px rgba(94,129,172,0.25) !important;
   color: #D8DEE9 !important;
