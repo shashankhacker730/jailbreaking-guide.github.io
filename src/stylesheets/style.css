@@ -32,7 +32,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: inherit;
   z-index: 120;
   font-family: SFPro-Display-Semibold !important;
 }
@@ -392,10 +392,10 @@ h3, hr.short{
   color: rgb(158, 143, 92) !important
 }
 .red a, .red a:visited {
-  color: #ff9a9a !important
+  color: #ffb3b3 !important
 }
 .red a:hover {
-  color: #a56161 !important
+  color: #ff8b8b !important
 }
 .blue a, .blue a:visited {
   color: #95c3ff !important
@@ -519,16 +519,6 @@ table {
 }
 hr.short {
   width: 33%;
-}
-.li > a, li > a:visited {
-  color: #fff;
-  text-decoration: none
-  
-}
-.li > a:hover {
-  color: rgb(151, 151, 151);
-  text-decoration: none;
-  border-radius: 15px;
 }
 
 .notice--info {
