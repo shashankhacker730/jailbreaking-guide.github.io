@@ -11,6 +11,6 @@ Make a PR [here](https://github.com/Jailbreaking-Guide/jailbreaking-guide.github
  
 TODO: eta son
 + Make public ToDo list </br>
-- ~~Become one with the subreddit and discord~~
+
 
 ***
