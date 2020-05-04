@@ -1,6 +1,6 @@
-# [Jailbreak Guide](https://jailbreakguide.me "Click to jailbreak!")
+# [Jailbreak Guide](https://jailbreakgui.de "Click to jailbreak!")
 #### Your one stop shop for all jailbreaking needs
-##### Source code to -> [jailbreakguide.me](https://jailbreakguide.me)
+##### Source code to -> [jailbreakgui.de](https://jailbreakgui.de)
  Brought to you by: [That_Kidd](https://github.com/That-Kidd) ,[Raizo](https://github.com/iraizo/) and [TheHacker](https://github.com/The-Hacker894)
 ***
 __How to get in contact ?__ </br>
