@@ -15,13 +15,13 @@
   --bg-accent-secondary: #1a1a1a;
   --text-color: rgb(255, 255, 255);
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: SFPro-Rounded-Bold !important;
 }
-h5, .h5 {
+h5 {
   font-size: 1.5rem !important;
 }
-h4, .h4 {
+h4 {
   font-size: 1.25rem !important;
 }
 p {
@@ -33,9 +33,6 @@ p {
   }
 }
 
-.center {
-  text-align: center
-}
 ul {
   list-style-type: none;
   margin: 0;
@@ -109,28 +106,9 @@ code {
   line-height: 100%;
 }
 
-.a-table {
-  color: #b8d2df;
-  text-decoration: underline;
-}
-
-.a-table:hover {
-  color: #b8d2df;
-  text-decoration: initial;
-}
-
-.a-table:visited {
-  color: #8a9ea7;
-  text-decoration: underline;
-}
-
-.a-table-section {
-  display: block;
-  padding-left: 15px;
-}
 
 
-.h1-page-title {
+h1 {
   display: block;
   font-size: 3.5em;
 }
@@ -163,21 +141,6 @@ img:hover {
 }
 div#jailbreak-methods a, div#jailbreak-methods a:hover, div#other-guides a, div#others a:hover, div#legacy-guides a, div#legacy-guides a:hover{
   color: white;
-}
-div#olli span#normal {
-  display: inline;
-}
-
-div#olli:hover span#normal {
-  display: none;
-}
-
-div#olli span#other {
-  display: none;
-}
-
-div#olli:hover span#other {
-  display: inline;
 }
 	.center {
     display: block;
