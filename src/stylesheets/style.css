@@ -6,6 +6,7 @@
   font-family: SFPro-Display-Semibold;
   src: url("../font/sf-pro/SF-Pro-Display-Semibold.otf");
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
 :root {
   --brand-color: #04A292;
   --secondary-color: #66FCF1;
@@ -15,8 +16,10 @@
   --bg-accent-secondary: #1a1a1a;
   --text-color: rgb(255, 255, 255);
 }
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: SFPro-Rounded-Bold !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold;
 }
 h5 {
   font-size: 1.5rem !important;
@@ -25,7 +28,8 @@ h4 {
   font-size: 1.25rem !important;
 }
 p {
-  font-family: SFPro-Display-Semibold;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 600;
 }
 @media (min-width: 992px) {
   body {
@@ -40,7 +44,8 @@ ul {
   overflow: hidden;
   background-color: inherit;
   z-index: 120;
-  font-family: SFPro-Display-Semibold !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 600;
 }
 .col-lg-6 {
 	margin-bottom: 7%;
@@ -66,7 +71,8 @@ body {
 html, body {
   color: #f2f2f2;
   background-color: #161616;
-  font-family: SFPro-Display-Semibold;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 600;
   overflow-x: hidden;
 }
 
@@ -118,7 +124,8 @@ h1 {
   padding: 1em;
   background-color: #485e7b; 
   font-size: 1em !important;
-  font-family: SFPro-Display-Semibold !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 600;
   text-indent: initial;
   box-shadow: 0 2px 2px rgba(94,129,172,0.25) !important;
   color: #D8DEE9 !important;
@@ -164,7 +171,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   display: block;
 }
 .toc {
-  font-family: SFPro-Rounded-Bold;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold;
   color: #7a8288;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -184,7 +192,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
   margin: 0;
   padding: 0.5rem 1rem;
   font-size: 1em;
-  font-family: SFPro-Rounded-Bold !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold;
 }
 .fa {
   display: inline-block;
@@ -226,7 +235,8 @@ ul, menu, dir {
   padding: 0.5rem 1rem;
   color: #D8DEE9;
   font-size: .6875em;
-  font-family: SFPro-Rounded-Bold !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold;
   line-height: 1.5;
   border-bottom: 1px solid #585d66;
 }
@@ -256,8 +266,8 @@ div.space {
 }
 
 .alert {
-  font-family: SFPro-Rounded-Bold;
-  font-weight: bolder !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bolder;
   font-size: 1em !important;
   padding: 1em;
   margin: 2em 0;
@@ -285,7 +295,7 @@ h3, hr.short{
   }
 }
 .alert.guide {
-  font-family: SFPro-Rounded-Bold;
+  font-family: 'Open Sans', sans-serif !important;
   font-weight: bolder !important;
   font-size: 1em !important;
   padding: 1em;
@@ -327,9 +337,9 @@ h3, hr.short{
 }
 
 a.button {
-  font-family: SFPro-Rounded-Bold;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold;
   border-radius: 50px;
-  font-weight: bold !important;
   padding: 0.75em 0.1em;
   font-size: 1em;
   outline: none !important;
@@ -426,7 +436,8 @@ hr.short {
   padding: 1.2em;
   font-size: .75em !important;
   text-indent: initial;
-  font-family: SFPro-Rounded-Bold !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold;
   border-radius: 20px;
   background-color: var(--bg-accent);
 }
@@ -470,7 +481,8 @@ hr.short {
   position: fixed;
   bottom: 0;
   width: 100%;
-  font-family: SFPro-Rounded-Bold !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: bold;
   z-index: 9999;
   
 }
