@@ -7,6 +7,7 @@
   src: url("../font/sf-pro/SF-Pro-Display-Semibold.otf");
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
 :root {
   --brand-color: #04A292;
   --secondary-color: #66FCF1;
@@ -20,6 +21,59 @@
   --notice-color: #485e7b;
   --notice-box-shadow: #5e81ac40;
   --toc-color: #88C0D0;
+}
+.showonlight {
+  display: none;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --brand-color: #04A292;
+    --secondary-color: #66FCF1;
+    --secondary-accent: #45A29E;
+    --bg-color: #161616;
+    --bg-accent: #292929;
+    --bg-accent-secondary: #1a1a1a;
+    --text-color: #ffffff;
+    --text-color-secondary: #666666;
+    --text-color-code: #dde1e6;
+    --notice-color: #485e7b;
+    --notice-box-shadow: #5e81ac40;
+    --toc-color: #88C0D0;
+  }
+  .showonlight {
+    display: none;
+  }
+  .title-section .icon-small.dark {
+    display: block !important
+  }
+  .title-section .icon-small.light {
+    display: none !important
+  }
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --brand-color: #04A292;
+    --secondary-accent: #66FCF1;
+    --secondary-color: #219690;
+    --bg-color: #fdfdfd;
+    --bg-accent: #c2c2c2;
+    --bg-accent-secondary: #e6e6e6;
+    --text-color: #000000;
+    --text-color-secondary: #b3b3b3;
+    --text-color-code: #5f5f5f;
+    --notice-color: #485e7b;
+    --notice-box-shadow: #a7a7a740;
+    --toc-color: #53b2cc;
+  }
+  .showonlight {
+    display: block;
+  }
+  .title-section .icon-small.dark {
+    display: none !important
+  }
+  .title-section .icon-small.light {
+    display: block !important
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
