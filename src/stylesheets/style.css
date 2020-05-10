@@ -41,7 +41,7 @@
     --toc-color: #88C0D0;
   }
   .showonlight {
-    display: none;
+    display: none !important;
   }
   .title-section .icon-small.dark {
     display: block !important
